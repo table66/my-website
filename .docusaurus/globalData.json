@@ -1,0 +1,101 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "tutorial/index",
+          "docs": [
+            {
+              "id": "examples/index",
+              "path": "/docs/examples/",
+              "sidebar": "examplesSidebar"
+            },
+            {
+              "id": "faq/FAQ",
+              "path": "/docs/faq/",
+              "sidebar": "faqSidebar"
+            },
+            {
+              "id": "faq/test1",
+              "path": "/docs/faq/test1",
+              "sidebar": "faqSidebar"
+            },
+            {
+              "id": "faq/test2",
+              "path": "/docs/faq/test2",
+              "sidebar": "faqSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site"
+            },
+            {
+              "id": "tutorial/index",
+              "path": "/docs/tutorial/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/tutorial/",
+                "label": "tutorial/index"
+              }
+            },
+            "faqSidebar": {
+              "link": {
+                "path": "/docs/faq/",
+                "label": "faq/FAQ"
+              }
+            },
+            "examplesSidebar": {
+              "link": {
+                "path": "/docs/examples/",
+                "label": "examples/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

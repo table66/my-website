@@ -1,0 +1,9 @@
+{
+  "type": "mdx",
+  "permalink": "/faq/test2",
+  "source": "@site/src/pages/faq/test2.md",
+  "title": "test2",
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}
