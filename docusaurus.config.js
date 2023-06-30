@@ -131,10 +131,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Products',
             items: [
               {
-                label: 'Tutorial',
+                label: 'FDTD',
+                to: '/docs/intro',
+              },
+              {
+                label: 'MODE',
                 to: '/docs/intro',
               },
             ],
@@ -157,20 +161,32 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'About',
             items: [
               {
-                label: 'Blog',
+                label: 'Terms of Service',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'Cookie Policy',
                 href: 'https://github.com/facebook/docusaurus',
+              },
+              {
+                label: 'Privacy',
+                to: '/blog',
+              },
+              {
+                label: 'Legal Notices',
+                to: '/blog',
+              },
+              {
+                label: 'Sitemap',
+                to: '/blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shanghai Max-Optics Information Technology Co.,Ltd`,
       },
       prism: {
         theme: lightCodeTheme,

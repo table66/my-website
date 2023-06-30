@@ -82,10 +82,14 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Products",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "FDTD",
+              "to": "/docs/intro"
+            },
+            {
+              "label": "MODE",
               "to": "/docs/intro"
             }
           ]
@@ -108,20 +112,32 @@ export default {
           ]
         },
         {
-          "title": "More",
+          "title": "About",
           "items": [
             {
-              "label": "Blog",
+              "label": "Terms of Service",
               "to": "/blog"
             },
             {
-              "label": "GitHub",
+              "label": "Cookie Policy",
               "href": "https://github.com/facebook/docusaurus"
+            },
+            {
+              "label": "Privacy",
+              "to": "/blog"
+            },
+            {
+              "label": "Legal Notices",
+              "to": "/blog"
+            },
+            {
+              "label": "Sitemap",
+              "to": "/blog"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Shanghai Max-Optics Information Technology Co.,Ltd"
     },
     "prism": {
       "theme": {
