@@ -4,102 +4,102 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '1cf'),
+    component: ComponentCreator('/__docusaurus/debug', 'dd5'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '0c5'),
+    component: ComponentCreator('/__docusaurus/debug/config', '694'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '599'),
+    component: ComponentCreator('/__docusaurus/debug/content', '8c5'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '940'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '02c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '519'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '7f0'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '036'),
+    component: ComponentCreator('/__docusaurus/debug/registry', 'dcb'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '25f'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'eb6'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '760'),
+    component: ComponentCreator('/blog', '62b'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'a28'),
+    component: ComponentCreator('/blog/archive', 'ed6'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '6c4'),
+    component: ComponentCreator('/blog/first-blog-post', '41a'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'ad4'),
+    component: ComponentCreator('/blog/long-blog-post', '1cf'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '0e8'),
+    component: ComponentCreator('/blog/mdx-blog-post', '84b'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '552'),
+    component: ComponentCreator('/blog/tags', '5c1'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'd1c'),
+    component: ComponentCreator('/blog/tags/docusaurus', '0b1'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', 'e1e'),
+    component: ComponentCreator('/blog/tags/facebook', 'c65'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'd07'),
+    component: ComponentCreator('/blog/tags/hello', 'f03'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '53a'),
+    component: ComponentCreator('/blog/tags/hola', '3e2'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd03'),
+    component: ComponentCreator('/blog/welcome', 'd1a'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'c26'),
+    component: ComponentCreator('/markdown-page', 'fd4'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ade'),
+    component: ComponentCreator('/docs', 'f01'),
     routes: [
       {
         path: '/docs/examples/',
@@ -180,7 +180,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '836'),
+    component: ComponentCreator('/', '56e'),
     exact: true
   },
   {

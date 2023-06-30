@@ -25,7 +25,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/abc/桌面/orignial/my-website/sidebars.js",
+          "sidebarPath": "/Users/zhuyuanji/Documents/my-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -33,7 +33,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/home/abc/桌面/orignial/my-website/src/css/custom.css"
+          "customCss": "/Users/zhuyuanji/Documents/my-website/src/css/custom.css"
         }
       }
     ]
