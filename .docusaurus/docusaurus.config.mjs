@@ -4,12 +4,12 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "knowledge base",
-  "favicon": "img/favicon.ico",
+  "title": "Knowledge Base",
+  "favicon": "img/mo_logo.png",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "Max-Optics",
+  "projectName": "Knowledge Base",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -25,7 +25,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/zhuyuanji/Documents/my-website/sidebars.js",
+          "sidebarPath": "/home/zqc/Documents/GitHub/my-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -33,7 +33,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/zhuyuanji/Documents/my-website/src/css/custom.css"
+          "customCss": "/home/zqc/Documents/GitHub/my-website/src/css/custom.css"
         }
       }
     ]
@@ -44,7 +44,7 @@ export default {
       "title": "Max-Optics",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/mo_logo.png"
       },
       "items": [
         {
