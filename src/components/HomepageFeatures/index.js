@@ -17,7 +17,11 @@ const FeatureList = [
         <div style={{ textAlign: 'left' }}>
           <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a>
         </div>
+<<<<<<< HEAD
        
+=======
+        {/* <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a> */}
+>>>>>>> 925cb2dde8b5ac800bb6d78268eb7a28c09a0301
       </>
     ),
     
