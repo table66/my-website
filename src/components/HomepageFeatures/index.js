@@ -8,8 +8,14 @@ const FeatureList = [
     Svg: require('@site/static/img/FAQ.svg').default,
     description: (
       <>
-        1. <a href="http://localhost:3000/my-website/docs/faq/">What is Max-Optics？</a>{"\n"}
-        2. <a href="http://localhost:3000/my-website/docs/faq/faq1">How to install Max-Optics？</a>
+        <div style={{ textAlign: 'left' }}>
+          <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>{"\n"}
+        </div>
+        {/* <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>{"\n"} */}
+        <div style={{ textAlign: 'left' }}>
+          <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a>
+        </div>
+        {/* <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a> */}
       </>
     ),
   },
