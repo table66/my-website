@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/FAQ.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        1. <a href="http://localhost:3000/my-website/docs/faq/">What is Max-Optics？</a>{"\n"}
+        2. <a href="http://localhost:3000/my-website/docs/faq/faq1">How to install Max-Optics？</a>
       </>
     ),
   },
