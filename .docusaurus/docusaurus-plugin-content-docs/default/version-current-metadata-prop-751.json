@@ -18,34 +18,34 @@
           {
             "type": "link",
             "label": "FDE",
-            "href": "/docs/tutorial/mode/fde",
+            "href": "/my-website/docs/tutorial/mode/fde",
             "docId": "tutorial/mode/fde"
           },
           {
             "type": "link",
             "label": "EME",
-            "href": "/docs/tutorial/mode/eme",
+            "href": "/my-website/docs/tutorial/mode/eme",
             "docId": "tutorial/mode/eme"
           },
           {
             "type": "link",
             "label": "FDTD",
-            "href": "/docs/tutorial/mode/fdtd",
+            "href": "/my-website/docs/tutorial/mode/fdtd",
             "docId": "tutorial/mode/fdtd"
           }
         ],
-        "href": "/docs/category/求解器"
+        "href": "/my-website/docs/category/求解器"
       },
       {
         "type": "link",
         "label": "材料",
-        "href": "/docs/tutorial/material",
+        "href": "/my-website/docs/tutorial/material",
         "docId": "tutorial/material"
       },
       {
         "type": "link",
         "label": "教程",
-        "href": "/docs/tutorial/t1",
+        "href": "/my-website/docs/tutorial/t1",
         "docId": "tutorial/t1"
       }
     ],
@@ -53,25 +53,25 @@
       {
         "type": "link",
         "label": "Waht is Max-Optics?",
-        "href": "/docs/faq/",
+        "href": "/my-website/docs/faq/",
         "docId": "faq/faq"
       },
       {
         "type": "link",
         "label": "如何下载安装Max-Optics软件？",
-        "href": "/docs/faq/faq1",
+        "href": "/my-website/docs/faq/faq1",
         "docId": "faq/faq1"
       },
       {
         "type": "link",
         "label": "如何获取许可证？",
-        "href": "/docs/faq/faq2",
+        "href": "/my-website/docs/faq/faq2",
         "docId": "faq/faq2"
       },
       {
         "type": "link",
         "label": "如何获取技术服务支持？",
-        "href": "/docs/faq/faq3",
+        "href": "/my-website/docs/faq/faq3",
         "docId": "faq/faq3"
       }
     ],
@@ -79,7 +79,7 @@
       {
         "type": "link",
         "label": "Y branch",
-        "href": "/docs/examples/ybranch/",
+        "href": "/my-website/docs/examples/ybranch/",
         "docId": "examples/ybranch/ybranch"
       }
     ]

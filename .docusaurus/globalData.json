@@ -1,104 +1,104 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/my-website/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/my-website/docs",
           "mainDocId": "tutorial/mode/fde",
           "docs": [
             {
               "id": "examples/ybranch/ybranch",
-              "path": "/docs/examples/ybranch/",
+              "path": "/my-website/docs/examples/ybranch/",
               "sidebar": "examplesSidebar"
             },
             {
               "id": "faq/faq",
-              "path": "/docs/faq/",
+              "path": "/my-website/docs/faq/",
               "sidebar": "faqSidebar"
             },
             {
               "id": "faq/faq1",
-              "path": "/docs/faq/faq1",
+              "path": "/my-website/docs/faq/faq1",
               "sidebar": "faqSidebar"
             },
             {
               "id": "faq/faq2",
-              "path": "/docs/faq/faq2",
+              "path": "/my-website/docs/faq/faq2",
               "sidebar": "faqSidebar"
             },
             {
               "id": "faq/faq3",
-              "path": "/docs/faq/faq3",
+              "path": "/my-website/docs/faq/faq3",
               "sidebar": "faqSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro"
+              "path": "/my-website/docs/intro"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations"
+              "path": "/my-website/docs/tutorial-basics/congratulations"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post"
+              "path": "/my-website/docs/tutorial-basics/create-a-blog-post"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document"
+              "path": "/my-website/docs/tutorial-basics/create-a-document"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page"
+              "path": "/my-website/docs/tutorial-basics/create-a-page"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site"
+              "path": "/my-website/docs/tutorial-basics/deploy-your-site"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features"
+              "path": "/my-website/docs/tutorial-basics/markdown-features"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions"
+              "path": "/my-website/docs/tutorial-extras/manage-docs-versions"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site"
+              "path": "/my-website/docs/tutorial-extras/translate-your-site"
             },
             {
               "id": "tutorial/material",
-              "path": "/docs/tutorial/material",
+              "path": "/my-website/docs/tutorial/material",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial/mode/eme",
-              "path": "/docs/tutorial/mode/eme",
+              "path": "/my-website/docs/tutorial/mode/eme",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial/mode/fde",
-              "path": "/docs/tutorial/mode/fde",
+              "path": "/my-website/docs/tutorial/mode/fde",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial/mode/fdtd",
-              "path": "/docs/tutorial/mode/fdtd",
+              "path": "/my-website/docs/tutorial/mode/fdtd",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial/t1",
-              "path": "/docs/tutorial/t1",
+              "path": "/my-website/docs/tutorial/t1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/求解器",
-              "path": "/docs/category/求解器",
+              "path": "/my-website/docs/category/求解器",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -106,19 +106,19 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/求解器",
+                "path": "/my-website/docs/category/求解器",
                 "label": "求解器"
               }
             },
             "faqSidebar": {
               "link": {
-                "path": "/docs/faq/",
+                "path": "/my-website/docs/faq/",
                 "label": "faq/faq"
               }
             },
             "examplesSidebar": {
               "link": {
-                "path": "/docs/examples/ybranch/",
+                "path": "/my-website/docs/examples/ybranch/",
                 "label": "Y branch"
               }
             }

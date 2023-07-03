@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial/mode/fdtd.md",
   "sourceDirName": "tutorial/mode",
   "slug": "/tutorial/mode/fdtd",
-  "permalink": "/docs/tutorial/mode/fdtd",
+  "permalink": "/my-website/docs/tutorial/mode/fdtd",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/fdtd.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "EME",
-    "permalink": "/docs/tutorial/mode/eme"
+    "permalink": "/my-website/docs/tutorial/mode/eme"
   },
   "next": {
     "title": "材料",
-    "permalink": "/docs/tutorial/material"
+    "permalink": "/my-website/docs/tutorial/material"
   }
 }

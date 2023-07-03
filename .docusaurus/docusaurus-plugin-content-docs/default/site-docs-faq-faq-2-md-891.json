@@ -6,7 +6,7 @@
   "source": "@site/docs/faq/faq2.md",
   "sourceDirName": "faq",
   "slug": "/faq/faq2",
-  "permalink": "/docs/faq/faq2",
+  "permalink": "/my-website/docs/faq/faq2",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq2.md",
   "tags": [],
@@ -18,10 +18,10 @@
   "sidebar": "faqSidebar",
   "previous": {
     "title": "如何下载安装Max-Optics软件？",
-    "permalink": "/docs/faq/faq1"
+    "permalink": "/my-website/docs/faq/faq1"
   },
   "next": {
     "title": "如何获取技术服务支持？",
-    "permalink": "/docs/faq/faq3"
+    "permalink": "/my-website/docs/faq/faq3"
   }
 }
