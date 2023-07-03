@@ -8,18 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Knowledge Base',
   // tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mo_logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://table66.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/my-website/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'table66', // Usually your GitHub org/user name.
+  projectName: 'my-website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -103,7 +103,7 @@ const config = {
         title: 'Max-Optics',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/mo_logo.png',
         },
         items: [
           // {
@@ -165,10 +165,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Products',
             items: [
               {
-                label: 'Tutorial',
+                label: 'FDTD',
+                to: '/docs/intro',
+              },
+              {
+                label: 'MODE',
                 to: '/docs/intro',
               },
             ],
@@ -191,20 +195,32 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'About',
             items: [
               {
-                label: 'Blog',
+                label: 'Terms of Service',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'Cookie Policy',
                 href: 'https://github.com/facebook/docusaurus',
+              },
+              {
+                label: 'Privacy',
+                to: '/blog',
+              },
+              {
+                label: 'Legal Notices',
+                to: '/blog',
+              },
+              {
+                label: 'Sitemap',
+                to: '/blog',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shanghai Max-Optics Information Technology Co.,Ltd`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -5,11 +5,11 @@
  */
 export default {
   "title": "Knowledge Base",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "favicon": "img/mo_logo.png",
+  "url": "https://table66.github.io",
+  "baseUrl": "/my-website/",
+  "organizationName": "table66",
+  "projectName": "my-website",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -57,7 +57,7 @@ export default {
       "title": "Max-Optics",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/mo_logo.png"
       },
       "items": [
         {
@@ -90,10 +90,14 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Products",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "FDTD",
+              "to": "/docs/intro"
+            },
+            {
+              "label": "MODE",
               "to": "/docs/intro"
             }
           ]
@@ -116,20 +120,32 @@ export default {
           ]
         },
         {
-          "title": "More",
+          "title": "About",
           "items": [
             {
-              "label": "Blog",
+              "label": "Terms of Service",
               "to": "/blog"
             },
             {
-              "label": "GitHub",
+              "label": "Cookie Policy",
               "href": "https://github.com/facebook/docusaurus"
+            },
+            {
+              "label": "Privacy",
+              "to": "/blog"
+            },
+            {
+              "label": "Legal Notices",
+              "to": "/blog"
+            },
+            {
+              "label": "Sitemap",
+              "to": "/blog"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Shanghai Max-Optics Information Technology Co.,Ltd"
     },
     "prism": {
       "theme": {
