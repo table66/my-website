@@ -1,0 +1,20 @@
+{
+  "unversionedId": "examples/index",
+  "id": "examples/index",
+  "title": "index",
+  "description": "examples",
+  "source": "@site/docs/examples/index.md",
+  "sourceDirName": "examples",
+  "slug": "/examples/",
+  "permalink": "/docs/examples/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "examplesSidebar",
+  "next": {
+    "title": "Y branch",
+    "permalink": "/docs/examples/ybranch/"
+  }
+}

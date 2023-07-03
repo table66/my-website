@@ -1,0 +1,23 @@
+{
+  "unversionedId": "faq/faq",
+  "id": "faq/faq",
+  "title": "Waht is Max-Optics?",
+  "description": "公司简介：",
+  "source": "@site/docs/faq/faq.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/",
+  "permalink": "/my-website/docs/faq/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "faqSidebar",
+  "next": {
+    "title": "如何下载安装Max-Optics软件？",
+    "permalink": "/my-website/docs/faq/faq1"
+  }
+}

@@ -11,22 +11,16 @@ const FeatureList = [
     description: (
       <>
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>{"\n"}
+          <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>
         </div>
         {/* <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>{"\n"} */}
         <div style={{ textAlign: 'left' }}>
           <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a>
         </div>
-<<<<<<< HEAD
-       
-=======
-        {/* <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a> */}
->>>>>>> 925cb2dde8b5ac800bb6d78268eb7a28c09a0301
-      </>
+        </>
     ),
-    
-    
-  },
+    },
+   
   {
     title: 'Tutorials',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
@@ -62,18 +56,18 @@ const FeatureList = [
       <>
         
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.如何调出所用命令？（待）</a>
+          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.How to call up the command used？（待）</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>
         <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.做一个例子，从mo.sdk.doc到knowledge base的item?（待）</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.用GUI创建?（待）</a>
+        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.How to create by GUI?（待）</a>
         </div>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">4.用SDK创建？（待）</a>
+        <a href="http://localhost:3000/docs\tutorial\material">4.How to create by SDK ？（待）</a>
         </div>
         
        

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "faq/index",
+  "id": "faq/index",
+  "title": "index",
+  "description": "Frequently Asked Questions",
+  "source": "@site/docs/faq/index.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/",
+  "permalink": "/docs/faq/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "faqSidebar",
+  "next": {
+    "title": "test2",
+    "permalink": "/docs/faq/test2"
+  }
+}

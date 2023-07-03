@@ -1,0 +1,20 @@
+{
+  "unversionedId": "faq/test1",
+  "id": "faq/test1",
+  "title": "test1",
+  "description": "---",
+  "source": "@site/docs/faq/test1.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/test1",
+  "permalink": "/docs/faq/test1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/test1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "faqSidebar",
+  "previous": {
+    "title": "test2",
+    "permalink": "/docs/faq/test2"
+  }
+}
