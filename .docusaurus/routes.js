@@ -4,107 +4,107 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/my-website/__docusaurus/debug',
-    component: ComponentCreator('/my-website/__docusaurus/debug', '469'),
+    component: ComponentCreator('/my-website/__docusaurus/debug', '8d9'),
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/config',
-    component: ComponentCreator('/my-website/__docusaurus/debug/config', '15e'),
+    component: ComponentCreator('/my-website/__docusaurus/debug/config', '201'),
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/content',
-    component: ComponentCreator('/my-website/__docusaurus/debug/content', '5d3'),
+    component: ComponentCreator('/my-website/__docusaurus/debug/content', '330'),
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/globalData',
-    component: ComponentCreator('/my-website/__docusaurus/debug/globalData', '74a'),
+    component: ComponentCreator('/my-website/__docusaurus/debug/globalData', 'b05'),
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/metadata',
-    component: ComponentCreator('/my-website/__docusaurus/debug/metadata', '8e5'),
+    component: ComponentCreator('/my-website/__docusaurus/debug/metadata', '9bf'),
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/registry',
-    component: ComponentCreator('/my-website/__docusaurus/debug/registry', '422'),
+    component: ComponentCreator('/my-website/__docusaurus/debug/registry', 'cd2'),
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/routes',
-    component: ComponentCreator('/my-website/__docusaurus/debug/routes', '2b0'),
+    component: ComponentCreator('/my-website/__docusaurus/debug/routes', 'dd6'),
     exact: true
   },
   {
     path: '/my-website/blog',
-    component: ComponentCreator('/my-website/blog', '531'),
+    component: ComponentCreator('/my-website/blog', '7e0'),
     exact: true
   },
   {
     path: '/my-website/blog/archive',
-    component: ComponentCreator('/my-website/blog/archive', '80a'),
+    component: ComponentCreator('/my-website/blog/archive', '21c'),
     exact: true
   },
   {
     path: '/my-website/blog/first-blog-post',
-    component: ComponentCreator('/my-website/blog/first-blog-post', '68c'),
+    component: ComponentCreator('/my-website/blog/first-blog-post', 'ae8'),
     exact: true
   },
   {
     path: '/my-website/blog/long-blog-post',
-    component: ComponentCreator('/my-website/blog/long-blog-post', 'de1'),
+    component: ComponentCreator('/my-website/blog/long-blog-post', '8f9'),
     exact: true
   },
   {
     path: '/my-website/blog/mdx-blog-post',
-    component: ComponentCreator('/my-website/blog/mdx-blog-post', '178'),
+    component: ComponentCreator('/my-website/blog/mdx-blog-post', '2e2'),
     exact: true
   },
   {
     path: '/my-website/blog/tags',
-    component: ComponentCreator('/my-website/blog/tags', '2ef'),
+    component: ComponentCreator('/my-website/blog/tags', 'dd5'),
     exact: true
   },
   {
     path: '/my-website/blog/tags/docusaurus',
-    component: ComponentCreator('/my-website/blog/tags/docusaurus', '0cb'),
+    component: ComponentCreator('/my-website/blog/tags/docusaurus', '226'),
     exact: true
   },
   {
     path: '/my-website/blog/tags/facebook',
-    component: ComponentCreator('/my-website/blog/tags/facebook', 'dee'),
+    component: ComponentCreator('/my-website/blog/tags/facebook', 'b8f'),
     exact: true
   },
   {
     path: '/my-website/blog/tags/hello',
-    component: ComponentCreator('/my-website/blog/tags/hello', '690'),
+    component: ComponentCreator('/my-website/blog/tags/hello', 'd5d'),
     exact: true
   },
   {
     path: '/my-website/blog/tags/hola',
-    component: ComponentCreator('/my-website/blog/tags/hola', '602'),
+    component: ComponentCreator('/my-website/blog/tags/hola', '46e'),
     exact: true
   },
   {
     path: '/my-website/blog/welcome',
-    component: ComponentCreator('/my-website/blog/welcome', 'fc6'),
+    component: ComponentCreator('/my-website/blog/welcome', '152'),
     exact: true
   },
   {
     path: '/my-website/markdown-page',
-    component: ComponentCreator('/my-website/markdown-page', '6a8'),
+    component: ComponentCreator('/my-website/markdown-page', '630'),
     exact: true
   },
   {
     path: '/my-website/search',
-    component: ComponentCreator('/my-website/search', '958'),
+    component: ComponentCreator('/my-website/search', 'f27'),
     exact: true
   },
   {
     path: '/my-website/docs',
-    component: ComponentCreator('/my-website/docs', 'd07'),
+    component: ComponentCreator('/my-website/docs', '9a4'),
     routes: [
       {
         path: '/my-website/docs/category/求解器',
@@ -227,7 +227,7 @@ export default [
   },
   {
     path: '/my-website/',
-    component: ComponentCreator('/my-website/', 'b31'),
+    component: ComponentCreator('/my-website/', '9e7'),
     exact: true
   },
   {
