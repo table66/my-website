@@ -11,6 +11,11 @@
           "mainDocId": "tutorial/mode/fde",
           "docs": [
             {
+              "id": "examples/ring resonator/ring resomator",
+              "path": "/my-website/docs/examples/ring resonator/ring resomator",
+              "sidebar": "examplesSidebar"
+            },
+            {
               "id": "examples/ybranch/ybranch",
               "path": "/my-website/docs/examples/ybranch/",
               "sidebar": "examplesSidebar"
@@ -118,8 +123,8 @@
             },
             "examplesSidebar": {
               "link": {
-                "path": "/my-website/docs/examples/ybranch/",
-                "label": "Y branch"
+                "path": "/my-website/docs/examples/ring resonator/ring resomator",
+                "label": "examples/ring resonator/ring resomator"
               }
             }
           }

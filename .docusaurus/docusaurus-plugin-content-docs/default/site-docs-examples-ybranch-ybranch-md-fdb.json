@@ -12,5 +12,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "examplesSidebar"
+  "sidebar": "examplesSidebar",
+  "previous": {
+    "title": "ring resomator",
+    "permalink": "/my-website/docs/examples/ring resonator/ring resomator"
+  }
 }

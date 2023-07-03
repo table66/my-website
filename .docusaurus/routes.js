@@ -104,13 +104,19 @@ export default [
   },
   {
     path: '/my-website/docs',
-    component: ComponentCreator('/my-website/docs', '114'),
+    component: ComponentCreator('/my-website/docs', '11c'),
     routes: [
       {
         path: '/my-website/docs/category/求解器',
         component: ComponentCreator('/my-website/docs/category/求解器', '983'),
         exact: true,
         sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/examples/ring resonator/ring resomator',
+        component: ComponentCreator('/my-website/docs/examples/ring resonator/ring resomator', '70b'),
+        exact: true,
+        sidebar: "examplesSidebar"
       },
       {
         path: '/my-website/docs/examples/ybranch/',

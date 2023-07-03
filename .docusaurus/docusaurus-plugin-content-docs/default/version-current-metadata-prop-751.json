@@ -77,6 +77,20 @@
     ],
     "examplesSidebar": [
       {
+        "type": "category",
+        "label": "ring resonator",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "ring resomator",
+            "href": "/my-website/docs/examples/ring resonator/ring resomator",
+            "docId": "examples/ring resonator/ring resomator"
+          }
+        ]
+      },
+      {
         "type": "link",
         "label": "Y branch",
         "href": "/my-website/docs/examples/ybranch/",
@@ -85,6 +99,12 @@
     ]
   },
   "docs": {
+    "examples/ring resonator/ring resomator": {
+      "id": "examples/ring resonator/ring resomator",
+      "title": "ring resomator",
+      "description": "",
+      "sidebar": "examplesSidebar"
+    },
     "examples/ybranch/ybranch": {
       "id": "examples/ybranch/ybranch",
       "title": "Y branch",
