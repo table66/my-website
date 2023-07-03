@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7741],{3427:e=>{e.exports=JSON.parse('{"title":"\u6c42\u89e3\u5668","slug":"/category/\u6c42\u89e3\u5668","permalink":"/my-website/docs/category/\u6c42\u89e3\u5668","navigation":{"next":{"title":"FDE","permalink":"/my-website/docs/tutorial/mode/fde"}}}')}}]);
