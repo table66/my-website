@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "knowledge base",
+  "title": "Knowledge Base",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
@@ -40,6 +40,19 @@ export default {
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
+    "algolia": {
+      "appId": "YOUR_APP_ID",
+      "apiKey": "YOUR_SEARCH_API_KEY",
+      "indexName": "YOUR_INDEX_NAME",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "replaceSearchResultPathname": {
+        "from": "/docs/",
+        "to": "/"
+      },
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "navbar": {
       "title": "Max-Optics",
       "logo": {
@@ -68,11 +81,6 @@ export default {
         {
           "href": "https://max-optics.com/?lang=zh-cn",
           "label": "support",
-          "position": "right"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
           "position": "right"
         }
       ],

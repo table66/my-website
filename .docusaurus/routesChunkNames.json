@@ -186,28 +186,42 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-ade": {
+  "/search-a32": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---searchee-7-44f"
+    }
+  },
+  "/docs-e02": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsc-3-d-188"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/examples/-a87": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-bf-6-427"
+  "/docs/category/求解器-880": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-求解器a-5-e-5ba"
   },
-  "/docs/faq/-2e4": {
+  "/docs/examples/ybranch/-50f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faq-fa-2-66c"
+    "content": "content---docs-examples-ybranch-fdb-ad4"
   },
-  "/docs/faq/test1-bd0": {
+  "/docs/faq/-7f7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faq-test-1-cb-8-887"
+    "content": "content---docs-faq-dfc-e4e"
   },
-  "/docs/faq/test2-67c": {
+  "/docs/faq/faq1-bf0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-faq-test-20-ae-29a"
+    "content": "content---docs-faq-faq-16-b-4-33f"
+  },
+  "/docs/faq/faq2-927": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-faq-faq-2891-fa2"
+  },
+  "/docs/faq/faq3-d70": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-faq-faq-3-dd-5-8b8"
   },
   "/docs/intro-e84": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -245,9 +259,25 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
-  "/docs/tutorial/-1f3": {
+  "/docs/tutorial/material-e97": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-383-883"
+    "content": "content---docs-tutorial-materialfa-3-1c4"
+  },
+  "/docs/tutorial/mode/eme-43f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-mode-eme-063-b8b"
+  },
+  "/docs/tutorial/mode/fde-5f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-mode-fde-229-057"
+  },
+  "/docs/tutorial/mode/fdtd-9ee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-mode-fdtdf-53-701"
+  },
+  "/docs/tutorial/t1-156": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorial-t-1190-da4"
   },
   "/-836": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

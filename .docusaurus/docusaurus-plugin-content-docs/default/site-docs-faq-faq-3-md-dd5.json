@@ -1,0 +1,20 @@
+{
+  "unversionedId": "faq/faq3",
+  "id": "faq/faq3",
+  "title": "如何获取技术服务支持？",
+  "description": "",
+  "source": "@site/docs/faq/faq3.md",
+  "sourceDirName": "faq",
+  "slug": "/faq/faq3",
+  "permalink": "/docs/faq/faq3",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq3.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "faqSidebar",
+  "previous": {
+    "title": "如何获取许可证？",
+    "permalink": "/docs/faq/faq2"
+  }
+}

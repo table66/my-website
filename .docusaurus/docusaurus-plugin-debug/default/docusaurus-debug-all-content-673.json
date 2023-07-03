@@ -20,32 +20,32 @@
           "contentPathLocalized": "/home/abc/桌面/orignial/my-website/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "examples/index",
-              "id": "examples/index",
-              "title": "index",
-              "description": "examples",
-              "source": "@site/docs/examples/index.md",
-              "sourceDirName": "examples",
-              "slug": "/examples/",
-              "permalink": "/docs/examples/",
+              "unversionedId": "examples/ybranch/ybranch",
+              "id": "examples/ybranch/ybranch",
+              "title": "Y branch",
+              "description": "The insertion loss, transmission and S-parameters of a Y-branch are calculated using FDTD Solver.",
+              "source": "@site/docs/examples/ybranch/ybranch.md",
+              "sourceDirName": "examples/ybranch",
+              "slug": "/examples/ybranch/",
+              "permalink": "/docs/examples/ybranch/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/index.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/ybranch/ybranch.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "examplesSidebar"
             },
             {
-              "unversionedId": "faq/FAQ",
-              "id": "faq/FAQ",
-              "title": "FAQ",
-              "description": "Frequently Asked Questions",
-              "source": "@site/docs/faq/FAQ.md",
+              "unversionedId": "faq/faq",
+              "id": "faq/faq",
+              "title": "Waht is Max-Optics?",
+              "description": "公司简介：",
+              "source": "@site/docs/faq/faq.md",
               "sourceDirName": "faq",
               "slug": "/faq/",
               "permalink": "/docs/faq/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/FAQ.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -54,41 +54,21 @@
               },
               "sidebar": "faqSidebar",
               "next": {
-                "title": "test2",
-                "permalink": "/docs/faq/test2"
+                "title": "如何下载安装Max-Optics软件？",
+                "permalink": "/docs/faq/faq1"
               }
             },
             {
-              "unversionedId": "faq/test1",
-              "id": "faq/test1",
-              "title": "test1",
-              "description": "---",
-              "source": "@site/docs/faq/test1.md",
-              "sourceDirName": "faq",
-              "slug": "/faq/test1",
-              "permalink": "/docs/faq/test1",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/test1.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "faqSidebar",
-              "previous": {
-                "title": "test2",
-                "permalink": "/docs/faq/test2"
-              }
-            },
-            {
-              "unversionedId": "faq/test2",
-              "id": "faq/test2",
-              "title": "test2",
+              "unversionedId": "faq/faq1",
+              "id": "faq/faq1",
+              "title": "如何下载安装Max-Optics软件？",
               "description": "",
-              "source": "@site/docs/faq/test2.md",
+              "source": "@site/docs/faq/faq1.md",
               "sourceDirName": "faq",
-              "slug": "/faq/test2",
-              "permalink": "/docs/faq/test2",
+              "slug": "/faq/faq1",
+              "permalink": "/docs/faq/faq1",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/test2.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq1.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -97,12 +77,59 @@
               },
               "sidebar": "faqSidebar",
               "previous": {
-                "title": "FAQ",
+                "title": "Waht is Max-Optics?",
                 "permalink": "/docs/faq/"
               },
               "next": {
-                "title": "test1",
-                "permalink": "/docs/faq/test1"
+                "title": "如何获取许可证？",
+                "permalink": "/docs/faq/faq2"
+              }
+            },
+            {
+              "unversionedId": "faq/faq2",
+              "id": "faq/faq2",
+              "title": "如何获取许可证？",
+              "description": "",
+              "source": "@site/docs/faq/faq2.md",
+              "sourceDirName": "faq",
+              "slug": "/faq/faq2",
+              "permalink": "/docs/faq/faq2",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "faqSidebar",
+              "previous": {
+                "title": "如何下载安装Max-Optics软件？",
+                "permalink": "/docs/faq/faq1"
+              },
+              "next": {
+                "title": "如何获取技术服务支持？",
+                "permalink": "/docs/faq/faq3"
+              }
+            },
+            {
+              "unversionedId": "faq/faq3",
+              "id": "faq/faq3",
+              "title": "如何获取技术服务支持？",
+              "description": "",
+              "source": "@site/docs/faq/faq3.md",
+              "sourceDirName": "faq",
+              "slug": "/faq/faq3",
+              "permalink": "/docs/faq/faq3",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/faq/faq3.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "faqSidebar",
+              "previous": {
+                "title": "如何获取许可证？",
+                "permalink": "/docs/faq/faq2"
               }
             },
             {
@@ -268,48 +295,191 @@
               }
             },
             {
-              "unversionedId": "tutorial/index",
-              "id": "tutorial/index",
-              "title": "index",
-              "description": "tutorial",
-              "source": "@site/docs/tutorial/index.md",
+              "unversionedId": "tutorial/material",
+              "id": "tutorial/material",
+              "title": "材料",
+              "description": "",
+              "source": "@site/docs/tutorial/material.md",
               "sourceDirName": "tutorial",
-              "slug": "/tutorial/",
-              "permalink": "/docs/tutorial/",
+              "slug": "/tutorial/material",
+              "permalink": "/docs/tutorial/material",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/index.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/material.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar"
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "FDTD",
+                "permalink": "/docs/tutorial/mode/fdtd"
+              },
+              "next": {
+                "title": "教程",
+                "permalink": "/docs/tutorial/t1"
+              }
+            },
+            {
+              "unversionedId": "tutorial/mode/eme",
+              "id": "tutorial/mode/eme",
+              "title": "EME",
+              "description": "definition",
+              "source": "@site/docs/tutorial/mode/eme.md",
+              "sourceDirName": "tutorial/mode",
+              "slug": "/tutorial/mode/eme",
+              "permalink": "/docs/tutorial/mode/eme",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/eme.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "FDE",
+                "permalink": "/docs/tutorial/mode/fde"
+              },
+              "next": {
+                "title": "FDTD",
+                "permalink": "/docs/tutorial/mode/fdtd"
+              }
+            },
+            {
+              "unversionedId": "tutorial/mode/fde",
+              "id": "tutorial/mode/fde",
+              "title": "FDE",
+              "description": "The Finite-Difference Eigenmode (FDE) solver calculates the spatial profile and frequency dependence of modes by solving Maxwell's equations on a cross-sectional mesh of the waveguide.  The solver calculates the mode field profiles, effective index, and loss.  Integrated frequency sweep makes it easy to calculate group delay, dispersion, etc.  The solver can also treat bent waveguides.",
+              "source": "@site/docs/tutorial/mode/fde.md",
+              "sourceDirName": "tutorial/mode",
+              "slug": "/tutorial/mode/fde",
+              "permalink": "/docs/tutorial/mode/fde",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/fde.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "求解器",
+                "permalink": "/docs/category/求解器"
+              },
+              "next": {
+                "title": "EME",
+                "permalink": "/docs/tutorial/mode/eme"
+              }
+            },
+            {
+              "unversionedId": "tutorial/mode/fdtd",
+              "id": "tutorial/mode/fdtd",
+              "title": "FDTD",
+              "description": "Definition",
+              "source": "@site/docs/tutorial/mode/fdtd.md",
+              "sourceDirName": "tutorial/mode",
+              "slug": "/tutorial/mode/fdtd",
+              "permalink": "/docs/tutorial/mode/fdtd",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/fdtd.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "EME",
+                "permalink": "/docs/tutorial/mode/eme"
+              },
+              "next": {
+                "title": "材料",
+                "permalink": "/docs/tutorial/material"
+              }
+            },
+            {
+              "unversionedId": "tutorial/t1",
+              "id": "tutorial/t1",
+              "title": "教程",
+              "description": "",
+              "source": "@site/docs/tutorial/t1.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/t1",
+              "permalink": "/docs/tutorial/t1",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/t1.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "材料",
+                "permalink": "/docs/tutorial/material"
+              }
             }
           ],
           "drafts": [],
           "sidebars": {
             "tutorialSidebar": [
               {
+                "type": "category",
+                "label": "求解器",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial/mode/fde"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/mode/eme"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/mode/fdtd"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/求解器",
+                  "permalink": "/docs/category/求解器"
+                }
+              },
+              {
                 "type": "doc",
-                "id": "tutorial/index"
+                "id": "tutorial/material"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/t1"
               }
             ],
             "faqSidebar": [
               {
                 "type": "doc",
-                "id": "faq/FAQ"
+                "id": "faq/faq"
               },
               {
                 "type": "doc",
-                "id": "faq/test2"
+                "id": "faq/faq1"
               },
               {
                 "type": "doc",
-                "id": "faq/test1"
+                "id": "faq/faq2"
+              },
+              {
+                "type": "doc",
+                "id": "faq/faq3"
               }
             ],
             "examplesSidebar": [
               {
                 "type": "doc",
-                "id": "examples/index"
+                "label": "Y branch",
+                "id": "examples/ybranch/ybranch"
               }
             ]
           }
@@ -681,6 +851,7 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-theme-search-algolia": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

@@ -98,30 +98,47 @@ export default [
     exact: true
   },
   {
+    path: '/search',
+    component: ComponentCreator('/search', 'a32'),
+    exact: true
+  },
+  {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ade'),
+    component: ComponentCreator('/docs', 'e02'),
     routes: [
       {
-        path: '/docs/examples/',
-        component: ComponentCreator('/docs/examples/', 'a87'),
+        path: '/docs/category/求解器',
+        component: ComponentCreator('/docs/category/求解器', '880'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/examples/ybranch/',
+        component: ComponentCreator('/docs/examples/ybranch/', '50f'),
         exact: true,
         sidebar: "examplesSidebar"
       },
       {
         path: '/docs/faq/',
-        component: ComponentCreator('/docs/faq/', '2e4'),
+        component: ComponentCreator('/docs/faq/', '7f7'),
         exact: true,
         sidebar: "faqSidebar"
       },
       {
-        path: '/docs/faq/test1',
-        component: ComponentCreator('/docs/faq/test1', 'bd0'),
+        path: '/docs/faq/faq1',
+        component: ComponentCreator('/docs/faq/faq1', 'bf0'),
         exact: true,
         sidebar: "faqSidebar"
       },
       {
-        path: '/docs/faq/test2',
-        component: ComponentCreator('/docs/faq/test2', '67c'),
+        path: '/docs/faq/faq2',
+        component: ComponentCreator('/docs/faq/faq2', '927'),
+        exact: true,
+        sidebar: "faqSidebar"
+      },
+      {
+        path: '/docs/faq/faq3',
+        component: ComponentCreator('/docs/faq/faq3', 'd70'),
         exact: true,
         sidebar: "faqSidebar"
       },
@@ -171,8 +188,32 @@ export default [
         exact: true
       },
       {
-        path: '/docs/tutorial/',
-        component: ComponentCreator('/docs/tutorial/', '1f3'),
+        path: '/docs/tutorial/material',
+        component: ComponentCreator('/docs/tutorial/material', 'e97'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial/mode/eme',
+        component: ComponentCreator('/docs/tutorial/mode/eme', '43f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial/mode/fde',
+        component: ComponentCreator('/docs/tutorial/mode/fde', '5f8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial/mode/fdtd',
+        component: ComponentCreator('/docs/tutorial/mode/fdtd', '9ee'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/tutorial/t1',
+        component: ComponentCreator('/docs/tutorial/t1', '156'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

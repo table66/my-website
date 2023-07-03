@@ -10,63 +10,108 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "category",
+        "label": "求解器",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "FDE",
+            "href": "/docs/tutorial/mode/fde",
+            "docId": "tutorial/mode/fde"
+          },
+          {
+            "type": "link",
+            "label": "EME",
+            "href": "/docs/tutorial/mode/eme",
+            "docId": "tutorial/mode/eme"
+          },
+          {
+            "type": "link",
+            "label": "FDTD",
+            "href": "/docs/tutorial/mode/fdtd",
+            "docId": "tutorial/mode/fdtd"
+          }
+        ],
+        "href": "/docs/category/求解器"
+      },
+      {
         "type": "link",
-        "label": "index",
-        "href": "/docs/tutorial/",
-        "docId": "tutorial/index"
+        "label": "材料",
+        "href": "/docs/tutorial/material",
+        "docId": "tutorial/material"
+      },
+      {
+        "type": "link",
+        "label": "教程",
+        "href": "/docs/tutorial/t1",
+        "docId": "tutorial/t1"
       }
     ],
     "faqSidebar": [
       {
         "type": "link",
-        "label": "FAQ",
+        "label": "Waht is Max-Optics?",
         "href": "/docs/faq/",
-        "docId": "faq/FAQ"
+        "docId": "faq/faq"
       },
       {
         "type": "link",
-        "label": "test2",
-        "href": "/docs/faq/test2",
-        "docId": "faq/test2"
+        "label": "如何下载安装Max-Optics软件？",
+        "href": "/docs/faq/faq1",
+        "docId": "faq/faq1"
       },
       {
         "type": "link",
-        "label": "test1",
-        "href": "/docs/faq/test1",
-        "docId": "faq/test1"
+        "label": "如何获取许可证？",
+        "href": "/docs/faq/faq2",
+        "docId": "faq/faq2"
+      },
+      {
+        "type": "link",
+        "label": "如何获取技术服务支持？",
+        "href": "/docs/faq/faq3",
+        "docId": "faq/faq3"
       }
     ],
     "examplesSidebar": [
       {
         "type": "link",
-        "label": "index",
-        "href": "/docs/examples/",
-        "docId": "examples/index"
+        "label": "Y branch",
+        "href": "/docs/examples/ybranch/",
+        "docId": "examples/ybranch/ybranch"
       }
     ]
   },
   "docs": {
-    "examples/index": {
-      "id": "examples/index",
-      "title": "index",
-      "description": "examples",
+    "examples/ybranch/ybranch": {
+      "id": "examples/ybranch/ybranch",
+      "title": "Y branch",
+      "description": "The insertion loss, transmission and S-parameters of a Y-branch are calculated using FDTD Solver.",
       "sidebar": "examplesSidebar"
     },
-    "faq/FAQ": {
-      "id": "faq/FAQ",
-      "title": "FAQ",
-      "description": "Frequently Asked Questions",
+    "faq/faq": {
+      "id": "faq/faq",
+      "title": "Waht is Max-Optics?",
+      "description": "公司简介：",
       "sidebar": "faqSidebar"
     },
-    "faq/test1": {
-      "id": "faq/test1",
-      "title": "test1",
-      "description": "---",
+    "faq/faq1": {
+      "id": "faq/faq1",
+      "title": "如何下载安装Max-Optics软件？",
+      "description": "",
       "sidebar": "faqSidebar"
     },
-    "faq/test2": {
-      "id": "faq/test2",
-      "title": "test2",
+    "faq/faq2": {
+      "id": "faq/faq2",
+      "title": "如何获取许可证？",
+      "description": "",
+      "sidebar": "faqSidebar"
+    },
+    "faq/faq3": {
+      "id": "faq/faq3",
+      "title": "如何获取技术服务支持？",
       "description": "",
       "sidebar": "faqSidebar"
     },
@@ -115,10 +160,34 @@
       "title": "Translate your site",
       "description": "Let's translate docs/intro.md to French."
     },
-    "tutorial/index": {
-      "id": "tutorial/index",
-      "title": "index",
-      "description": "tutorial",
+    "tutorial/material": {
+      "id": "tutorial/material",
+      "title": "材料",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/mode/eme": {
+      "id": "tutorial/mode/eme",
+      "title": "EME",
+      "description": "definition",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/mode/fde": {
+      "id": "tutorial/mode/fde",
+      "title": "FDE",
+      "description": "The Finite-Difference Eigenmode (FDE) solver calculates the spatial profile and frequency dependence of modes by solving Maxwell's equations on a cross-sectional mesh of the waveguide.  The solver calculates the mode field profiles, effective index, and loss.  Integrated frequency sweep makes it easy to calculate group delay, dispersion, etc.  The solver can also treat bent waveguides.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/mode/fdtd": {
+      "id": "tutorial/mode/fdtd",
+      "title": "FDTD",
+      "description": "Definition",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/t1": {
+      "id": "tutorial/t1",
+      "title": "教程",
+      "description": "",
       "sidebar": "tutorialSidebar"
     }
   }

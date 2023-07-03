@@ -12,5 +12,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "examplesSidebar"
+  "sidebar": "examplesSidebar",
+  "next": {
+    "title": "Y branch",
+    "permalink": "/docs/examples/ybranch/"
+  }
 }

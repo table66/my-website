@@ -1,8 +1,8 @@
 {
   "unversionedId": "faq/FAQ",
   "id": "faq/FAQ",
-  "title": "FAQ",
-  "description": "Frequently Asked Questions",
+  "title": "Waht is Max-Optics?",
+  "description": "公司简介：",
   "source": "@site/docs/faq/FAQ.md",
   "sourceDirName": "faq",
   "slug": "/faq/",
@@ -18,6 +18,6 @@
   "sidebar": "faqSidebar",
   "next": {
     "title": "test2",
-    "permalink": "/docs/faq/test2"
+    "permalink": "/docs/faq/faq2"
   }
 }

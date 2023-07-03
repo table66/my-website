@@ -8,26 +8,31 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "tutorial/index",
+          "mainDocId": "tutorial/mode/fde",
           "docs": [
             {
-              "id": "examples/index",
-              "path": "/docs/examples/",
+              "id": "examples/ybranch/ybranch",
+              "path": "/docs/examples/ybranch/",
               "sidebar": "examplesSidebar"
             },
             {
-              "id": "faq/FAQ",
+              "id": "faq/faq",
               "path": "/docs/faq/",
               "sidebar": "faqSidebar"
             },
             {
-              "id": "faq/test1",
-              "path": "/docs/faq/test1",
+              "id": "faq/faq1",
+              "path": "/docs/faq/faq1",
               "sidebar": "faqSidebar"
             },
             {
-              "id": "faq/test2",
-              "path": "/docs/faq/test2",
+              "id": "faq/faq2",
+              "path": "/docs/faq/faq2",
+              "sidebar": "faqSidebar"
+            },
+            {
+              "id": "faq/faq3",
+              "path": "/docs/faq/faq3",
               "sidebar": "faqSidebar"
             },
             {
@@ -67,8 +72,33 @@
               "path": "/docs/tutorial-extras/translate-your-site"
             },
             {
-              "id": "tutorial/index",
-              "path": "/docs/tutorial/",
+              "id": "tutorial/material",
+              "path": "/docs/tutorial/material",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/mode/eme",
+              "path": "/docs/tutorial/mode/eme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/mode/fde",
+              "path": "/docs/tutorial/mode/fde",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/mode/fdtd",
+              "path": "/docs/tutorial/mode/fdtd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/t1",
+              "path": "/docs/tutorial/t1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/求解器",
+              "path": "/docs/category/求解器",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -76,20 +106,20 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/tutorial/",
-                "label": "tutorial/index"
+                "path": "/docs/category/求解器",
+                "label": "求解器"
               }
             },
             "faqSidebar": {
               "link": {
                 "path": "/docs/faq/",
-                "label": "faq/FAQ"
+                "label": "faq/faq"
               }
             },
             "examplesSidebar": {
               "link": {
-                "path": "/docs/examples/",
-                "label": "examples/index"
+                "path": "/docs/examples/ybranch/",
+                "label": "Y branch"
               }
             }
           }
