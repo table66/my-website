@@ -25,7 +25,11 @@ export default {
       "classic",
       {
         "docs": {
+<<<<<<< HEAD
           "sidebarPath": "E:\\github_desktop\\my-website\\sidebars.js",
+=======
+          "sidebarPath": "E:\\研究生\\曼光\\website\\test\\my-website\\sidebars.js",
+>>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -33,7 +37,11 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
+<<<<<<< HEAD
           "customCss": "E:\\github_desktop\\my-website\\src\\css\\custom.css"
+=======
+          "customCss": "E:\\研究生\\曼光\\website\\test\\my-website\\src\\css\\custom.css"
+>>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
         }
       }
     ]
