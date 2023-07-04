@@ -58,7 +58,7 @@
       },
       {
         "type": "link",
-        "label": "如何下载安装Max-Optics软件？",
+        "label": "How to install Max-Optics",
         "href": "/my-website/docs/faq/faq1",
         "docId": "faq/faq1"
       },
@@ -119,7 +119,7 @@
     },
     "faq/faq1": {
       "id": "faq/faq1",
-      "title": "如何下载安装Max-Optics软件？",
+      "title": "How to install Max-Optics",
       "description": "Max-Optics Studio Local Passive Software Installation",
       "sidebar": "faqSidebar"
     },
