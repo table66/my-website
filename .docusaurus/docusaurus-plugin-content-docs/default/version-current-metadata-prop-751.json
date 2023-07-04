@@ -78,23 +78,38 @@
     "examplesSidebar": [
       {
         "type": "category",
-        "label": "ring resonator",
+        "label": "PIC",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
+            "type": "category",
+            "label": "ring resonator",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "ring resomator",
+                "href": "/my-website/docs/examples/PIC/ring resonator/ring resomator",
+                "docId": "examples/PIC/ring resonator/ring resomator"
+              }
+            ]
+          },
+          {
             "type": "link",
-            "label": "ring resomator",
-            "href": "/my-website/docs/examples/ring resonator/ring resomator",
-            "docId": "examples/ring resonator/ring resomator"
+            "label": "Y branch",
+            "href": "/my-website/docs/examples/PIC/ybranch/",
+            "docId": "examples/PIC/ybranch/ybranch"
           }
-        ]
+        ],
+        "href": "/my-website/docs/category/pic"
       },
       {
         "type": "link",
-        "label": "Y branch",
-        "href": "/my-website/docs/examples/ybranch/",
-        "docId": "examples/ybranch/ybranch"
+        "label": "grating",
+        "href": "/my-website/docs/examples/Grating/",
+        "docId": "examples/Grating/grating"
       }
     ],
     "howdoiSidebar": [
@@ -115,14 +130,20 @@
     ]
   },
   "docs": {
-    "examples/ring resonator/ring resomator": {
-      "id": "examples/ring resonator/ring resomator",
+    "examples/Grating/grating": {
+      "id": "examples/Grating/grating",
+      "title": "grating",
+      "description": "",
+      "sidebar": "examplesSidebar"
+    },
+    "examples/PIC/ring resonator/ring resomator": {
+      "id": "examples/PIC/ring resonator/ring resomator",
       "title": "ring resomator",
       "description": "",
       "sidebar": "examplesSidebar"
     },
-    "examples/ybranch/ybranch": {
-      "id": "examples/ybranch/ybranch",
+    "examples/PIC/ybranch/ybranch": {
+      "id": "examples/PIC/ybranch/ybranch",
       "title": "Y branch",
       "description": "The insertion loss, transmission and S-parameters of a Y-branch are calculated using FDTD Solver.",
       "sidebar": "examplesSidebar"

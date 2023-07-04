@@ -104,7 +104,7 @@ export default [
   },
   {
     path: '/my-website/docs',
-    component: ComponentCreator('/my-website/docs', 'e50'),
+    component: ComponentCreator('/my-website/docs', '0aa'),
     routes: [
       {
         path: '/my-website/docs/category/求解器',
@@ -113,14 +113,26 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/my-website/docs/examples/ring resonator/ring resomator',
-        component: ComponentCreator('/my-website/docs/examples/ring resonator/ring resomator', '70b'),
+        path: '/my-website/docs/category/pic',
+        component: ComponentCreator('/my-website/docs/category/pic', '6a1'),
         exact: true,
         sidebar: "examplesSidebar"
       },
       {
-        path: '/my-website/docs/examples/ybranch/',
-        component: ComponentCreator('/my-website/docs/examples/ybranch/', '9b5'),
+        path: '/my-website/docs/examples/Grating/',
+        component: ComponentCreator('/my-website/docs/examples/Grating/', '513'),
+        exact: true,
+        sidebar: "examplesSidebar"
+      },
+      {
+        path: '/my-website/docs/examples/PIC/ring resonator/ring resomator',
+        component: ComponentCreator('/my-website/docs/examples/PIC/ring resonator/ring resomator', 'd5d'),
+        exact: true,
+        sidebar: "examplesSidebar"
+      },
+      {
+        path: '/my-website/docs/examples/PIC/ybranch/',
+        component: ComponentCreator('/my-website/docs/examples/PIC/ybranch/', '57e'),
         exact: true,
         sidebar: "examplesSidebar"
       },

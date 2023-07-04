@@ -88,7 +88,7 @@ const FeatureList = [
     description: (
       <>
         <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/tutorial/mode/fde">1.PIC</a>
+          <a href="/my-website/docs/category/pic">1.PIC</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>

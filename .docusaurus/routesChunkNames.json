@@ -192,7 +192,7 @@
       "plugin": "plugin---my-website-search-7-b-1-727"
     }
   },
-  "/my-website/docs-e50": {
+  "/my-website/docs-0aa": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---my-website-docs-546-1fb"
@@ -203,13 +203,21 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---my-website-docs-category-求解器bc-6-0a5"
   },
-  "/my-website/docs/examples/ring resonator/ring resomator-70b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---my-website-docs-examples-ring-resonator-ring-resomatorc-27-a00"
+  "/my-website/docs/category/pic-6a1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---my-website-docs-category-pic-862-132"
   },
-  "/my-website/docs/examples/ybranch/-9b5": {
+  "/my-website/docs/examples/Grating/-513": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---my-website-docs-examples-ybranch-fdb-713"
+    "content": "content---my-website-docs-examples-grating-b-59-e94"
+  },
+  "/my-website/docs/examples/PIC/ring resonator/ring resomator-d5d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-website-docs-examples-pic-ring-resonator-ring-resomator-2-bc-067"
+  },
+  "/my-website/docs/examples/PIC/ybranch/-57e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---my-website-docs-examples-pic-ybranch-579-132"
   },
   "/my-website/docs/faq/-d9c": {
     "__comp": "__comp---theme-doc-item-178-a40",

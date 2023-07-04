@@ -11,13 +11,18 @@
           "mainDocId": "tutorial/mode/fde",
           "docs": [
             {
-              "id": "examples/ring resonator/ring resomator",
-              "path": "/my-website/docs/examples/ring resonator/ring resomator",
+              "id": "examples/Grating/grating",
+              "path": "/my-website/docs/examples/Grating/",
               "sidebar": "examplesSidebar"
             },
             {
-              "id": "examples/ybranch/ybranch",
-              "path": "/my-website/docs/examples/ybranch/",
+              "id": "examples/PIC/ring resonator/ring resomator",
+              "path": "/my-website/docs/examples/PIC/ring resonator/ring resomator",
+              "sidebar": "examplesSidebar"
+            },
+            {
+              "id": "examples/PIC/ybranch/ybranch",
+              "path": "/my-website/docs/examples/PIC/ybranch/",
               "sidebar": "examplesSidebar"
             },
             {
@@ -115,6 +120,11 @@
               "id": "/category/求解器",
               "path": "/my-website/docs/category/求解器",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/pic",
+              "path": "/my-website/docs/category/pic",
+              "sidebar": "examplesSidebar"
             }
           ],
           "draftIds": [],
@@ -133,8 +143,8 @@
             },
             "examplesSidebar": {
               "link": {
-                "path": "/my-website/docs/examples/ring resonator/ring resomator",
-                "label": "examples/ring resonator/ring resomator"
+                "path": "/my-website/docs/category/pic",
+                "label": "PIC"
               }
             },
             "howdoiSidebar": {
