@@ -17,7 +17,13 @@ const FeatureList = [
         <div style={{ textAlign: 'left' }}>
           <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a>
         </div>
-       
+        <div style={{ textAlign: 'left' }}>
+          <a href="http://localhost:3000/my-website/docs/faq/faq2">3.How to obtain a license？</a>
+        </div>
+        <div style={{ textAlign: 'left' }}>
+          <a href="http://localhost:3000/my-website/docs/faq/faq3">4.How to Obtaining Technical Support?</a>
+        </div>
+
       </>
     ),
     
@@ -58,18 +64,18 @@ const FeatureList = [
       <>
         
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.如何调出所用命令？（待）</a>
+          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.How to call up the command used？（待）</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>
         <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.做一个例子，从mo.sdk.doc到knowledge base的item?（待）</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.用GUI创建?（待）</a>
+        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.How to creaat by GUI?（待）</a>
         </div>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">4.用SDK创建？（待）</a>
+        <a href="http://localhost:3000/docs\tutorial\material">4.How to create by SDK？（待）</a>
         </div>
         
        
@@ -85,35 +91,35 @@ const FeatureList = [
     description: (
       <>
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.PIC</a>
+          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.Photonic integrated circuit 待</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.Grating</a>
+        <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.Grating待</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.Metamaterial</a>
-        </div>
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">4.PD(by GUI)</a>
-        </div>
-        <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">5.PD(by SDK)</a>
-        </div>
-        <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">6.MOD(by GUI)</a>
+        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.Metamaterial待</a>
         </div>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">7.MOD(by SDK)</a>
+        <a href="http://localhost:3000/docs\tutorial\material">4.PD(by GUI)待</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">8.Lasers</a>
+        <a href="http://localhost:3000/docs\tutorial\t1">5.PD(by SDK)待</a>
+        </div>
+        <div style={{ textAlign: 'left' }}>
+        <a href="http://localhost:3000/docs\tutorial\mode\eme">6.MOD(by GUI)待</a>
+        </div>
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="http://localhost:3000/docs\tutorial\material">7.MOD(by SDK)待</a>
+        </div>
+        <div style={{ textAlign: 'left' }}>
+        <a href="http://localhost:3000/docs\tutorial\t1">8.Lasers待</a>
         </div>
         
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">9.Optical scattering and far-field radiation</a>
+        <a href="http://localhost:3000/docs\tutorial\t1">9.Optical scattering and far-field radiation待</a>
         </div>
        
       </>
