@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "E:\\github_desktop\\task\\my-website\\sidebars.js",
-          "contentPath": "E:\\github_desktop\\task\\my-website\\docs",
-          "contentPathLocalized": "E:\\github_desktop\\task\\my-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "E:\\github_desktop\\my-website\\sidebars.js",
+          "contentPath": "E:\\github_desktop\\my-website\\docs",
+          "contentPathLocalized": "E:\\github_desktop\\my-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "examples/ring resonator/ring resomator",
@@ -86,7 +86,7 @@
               "unversionedId": "faq/faq1",
               "id": "faq/faq1",
               "title": "如何下载安装Max-Optics软件？",
-              "description": "",
+              "description": "Max-Optics Studio Local Passive Software Installation",
               "source": "@site/docs/faq/faq1.md",
               "sourceDirName": "faq",
               "slug": "/faq/faq1",
