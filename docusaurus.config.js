@@ -116,36 +116,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'faqSidebar',
             position: 'left',
-            label: 'FAQ',
+            label: 'faq',
           },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorials',
+            label: 'tutorial',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'howdoiSidebar',
-            position: 'left',
-            label: 'How do I',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'examplesSidebar',
-            position: 'left',
-            label: 'Example Library',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'moreSidebar',
-            position: 'left',
-            label: 'More',
-          },
-          
-
-
-
 
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {to: 'faq', label: 'faq', position: 'left'},
@@ -156,12 +134,12 @@ const config = {
           // {to: 'examples', label: 'examples', position: 'left'},
 
 
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'examplesSidebar',
-          //   position: 'left',
-          //   label: 'examples',
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'examplesSidebar',
+            position: 'left',
+            label: 'examples',
+          },
           // {to: '/docs/test' ,label:'test' , position:'left'},
 
           {

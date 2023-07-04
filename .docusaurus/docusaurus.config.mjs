@@ -25,7 +25,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "E:\\github_desktop\\task\\my-website\\sidebars.js",
+          "sidebarPath": "E:\\研究生\\曼光\\website\\right\\my-website\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -33,7 +33,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "E:\\github_desktop\\task\\my-website\\src\\css\\custom.css"
+          "customCss": "E:\\研究生\\曼光\\website\\right\\my-website\\src\\css\\custom.css"
         }
       }
     ]
@@ -64,31 +64,19 @@ export default {
           "type": "docSidebar",
           "sidebarId": "faqSidebar",
           "position": "left",
-          "label": "FAQ"
+          "label": "faq"
         },
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorials"
-        },
-        {
-          "type": "docSidebar",
-          "sidebarId": "howdoiSidebar",
-          "position": "left",
-          "label": "How do I"
+          "label": "tutorial"
         },
         {
           "type": "docSidebar",
           "sidebarId": "examplesSidebar",
           "position": "left",
-          "label": "Example Library"
-        },
-        {
-          "type": "docSidebar",
-          "sidebarId": "moreSidebar",
-          "position": "left",
-          "label": "More"
+          "label": "examples"
         },
         {
           "href": "https://max-optics.com/?lang=zh-cn",
