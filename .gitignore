@@ -1,3 +1,2 @@
-.docusaurus/**
-node_modules/**
-node_modules
+node_modules/.cache/webpack/client-development-en/*
+node_modules/.cache/webpack/client-development-en/**
