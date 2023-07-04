@@ -4,191 +4,107 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/my-website/__docusaurus/debug',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug', '323'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug', '8d9'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/config',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug/config', '4d6'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug/config', '201'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/content',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug/content', 'bc0'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug/content', '330'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/globalData',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug/globalData', '496'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug/globalData', 'b05'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/metadata',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug/metadata', 'b94'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug/metadata', '9bf'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/registry',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug/registry', '02d'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug/registry', 'cd2'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/__docusaurus/debug/routes',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/__docusaurus/debug/routes', '7c7'),
-=======
-    component: ComponentCreator('/my-website/__docusaurus/debug/routes', 'dd6'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog', '20f'),
-=======
-    component: ComponentCreator('/my-website/blog', '7e0'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/archive',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/archive', '32d'),
-=======
-    component: ComponentCreator('/my-website/blog/archive', '21c'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/first-blog-post',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/first-blog-post', '23b'),
-=======
-    component: ComponentCreator('/my-website/blog/first-blog-post', 'ae8'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/long-blog-post',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/long-blog-post', 'e25'),
-=======
-    component: ComponentCreator('/my-website/blog/long-blog-post', '8f9'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/mdx-blog-post',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/mdx-blog-post', 'ab6'),
-=======
-    component: ComponentCreator('/my-website/blog/mdx-blog-post', '2e2'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/tags',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/tags', '4b2'),
-=======
-    component: ComponentCreator('/my-website/blog/tags', 'dd5'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/tags/docusaurus',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/tags/docusaurus', 'b22'),
-=======
-    component: ComponentCreator('/my-website/blog/tags/docusaurus', '226'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/tags/facebook',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/tags/facebook', 'ed7'),
-=======
-    component: ComponentCreator('/my-website/blog/tags/facebook', 'b8f'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/tags/hello',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/tags/hello', '288'),
-=======
-    component: ComponentCreator('/my-website/blog/tags/hello', 'd5d'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/tags/hola',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/tags/hola', 'd53'),
-=======
-    component: ComponentCreator('/my-website/blog/tags/hola', '46e'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/blog/welcome',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/blog/welcome', '717'),
-=======
-    component: ComponentCreator('/my-website/blog/welcome', '152'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/markdown-page',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/markdown-page', '7f3'),
-=======
-    component: ComponentCreator('/my-website/markdown-page', '630'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/search',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/search', '634'),
-=======
-    component: ComponentCreator('/my-website/search', 'f27'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
     path: '/my-website/docs',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/docs', '11c'),
-=======
-    component: ComponentCreator('/my-website/docs', '9a4'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     routes: [
       {
         path: '/my-website/docs/category/求解器',
@@ -311,11 +227,7 @@ export default [
   },
   {
     path: '/my-website/',
-<<<<<<< HEAD
     component: ComponentCreator('/my-website/', '8fd'),
-=======
-    component: ComponentCreator('/my-website/', '9e7'),
->>>>>>> 2a47aeb13513501893b82eb1b66daab108d4282e
     exact: true
   },
   {
