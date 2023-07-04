@@ -13,6 +13,10 @@
   "version": "current",
   "frontMatter": {},
   "sidebar": "examplesSidebar",
+  "previous": {
+    "title": "Y branch",
+    "permalink": "/my-website/docs/examples/PIC/ybranch/"
+  },
   "next": {
     "title": "Y branch",
     "permalink": "/my-website/docs/examples/ybranch/"

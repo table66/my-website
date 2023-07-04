@@ -1,0 +1,16 @@
+{
+  "unversionedId": "more/moreIntro",
+  "id": "more/moreIntro",
+  "title": "more",
+  "description": "",
+  "source": "@site/docs/more/moreIntro.md",
+  "sourceDirName": "more",
+  "slug": "/more/moreIntro",
+  "permalink": "/my-website/docs/more/moreIntro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/more/moreIntro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "moreSidebar"
+}
