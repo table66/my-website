@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorial/monitor",
+  "id": "tutorial/monitor",
+  "title": "Monitor",
+  "description": "",
+  "source": "@site/docs/tutorial/monitor.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/monitor",
+  "permalink": "/my-website/docs/tutorial/monitor",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/monitor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Check Memory",
+    "permalink": "/my-website/docs/tutorial/checkmemory"
+  },
+  "next": {
+    "title": "Port",
+    "permalink": "/my-website/docs/tutorial/port"
+  }
+}

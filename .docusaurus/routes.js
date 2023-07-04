@@ -104,19 +104,19 @@ export default [
   },
   {
     path: '/my-website/docs',
-    component: ComponentCreator('/my-website/docs', '0aa'),
+    component: ComponentCreator('/my-website/docs', '536'),
     routes: [
-      {
-        path: '/my-website/docs/category/求解器',
-        component: ComponentCreator('/my-website/docs/category/求解器', '983'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
       {
         path: '/my-website/docs/category/pic',
         component: ComponentCreator('/my-website/docs/category/pic', '6a1'),
         exact: true,
         sidebar: "examplesSidebar"
+      },
+      {
+        path: '/my-website/docs/category/simulation',
+        component: ComponentCreator('/my-website/docs/category/simulation', '8bc'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/my-website/docs/examples/Grating/',
@@ -218,32 +218,74 @@ export default [
         exact: true
       },
       {
+        path: '/my-website/docs/tutorial/checkmemory',
+        component: ComponentCreator('/my-website/docs/tutorial/checkmemory', '8bc'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/my-website/docs/tutorial/material',
         component: ComponentCreator('/my-website/docs/tutorial/material', '197'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/my-website/docs/tutorial/mode/eme',
-        component: ComponentCreator('/my-website/docs/tutorial/mode/eme', '59b'),
+        path: '/my-website/docs/tutorial/monitor',
+        component: ComponentCreator('/my-website/docs/tutorial/monitor', 'f87'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/my-website/docs/tutorial/mode/fde',
-        component: ComponentCreator('/my-website/docs/tutorial/mode/fde', '2ba'),
+        path: '/my-website/docs/tutorial/port',
+        component: ComponentCreator('/my-website/docs/tutorial/port', '461'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/my-website/docs/tutorial/mode/fdtd',
-        component: ComponentCreator('/my-website/docs/tutorial/mode/fdtd', '85f'),
+        path: '/my-website/docs/tutorial/remesh',
+        component: ComponentCreator('/my-website/docs/tutorial/remesh', '28e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/my-website/docs/tutorial/t1',
-        component: ComponentCreator('/my-website/docs/tutorial/t1', '20e'),
+        path: '/my-website/docs/tutorial/run',
+        component: ComponentCreator('/my-website/docs/tutorial/run', 'e28'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/tutorial/simulation/eme',
+        component: ComponentCreator('/my-website/docs/tutorial/simulation/eme', '69e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/tutorial/simulation/fde',
+        component: ComponentCreator('/my-website/docs/tutorial/simulation/fde', '463'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/tutorial/simulation/fdtd',
+        component: ComponentCreator('/my-website/docs/tutorial/simulation/fdtd', '8b7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/tutorial/Source',
+        component: ComponentCreator('/my-website/docs/tutorial/Source', '7a9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/tutorial/structure',
+        component: ComponentCreator('/my-website/docs/tutorial/structure', '00d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/my-website/docs/tutorial/waveform',
+        component: ComponentCreator('/my-website/docs/tutorial/waveform', '6ca'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

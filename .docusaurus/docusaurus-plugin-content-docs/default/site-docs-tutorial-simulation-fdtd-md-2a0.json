@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial/simulation/fdtd",
+  "id": "tutorial/simulation/fdtd",
+  "title": "FDTD",
+  "description": "Definition",
+  "source": "@site/docs/tutorial/simulation/fdtd.md",
+  "sourceDirName": "tutorial/simulation",
+  "slug": "/tutorial/simulation/fdtd",
+  "permalink": "/my-website/docs/tutorial/simulation/fdtd",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/simulation/fdtd.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EME",
+    "permalink": "/my-website/docs/tutorial/simulation/eme"
+  },
+  "next": {
+    "title": "Run",
+    "permalink": "/my-website/docs/tutorial/run"
+  }
+}

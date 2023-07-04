@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorial/tutorial",
+  "id": "tutorial/tutorial",
+  "title": "教程",
+  "description": "",
+  "source": "@site/docs/tutorial/tutorial.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/",
+  "permalink": "/my-website/docs/tutorial/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/tutorial.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Structure",
+    "permalink": "/my-website/docs/tutorial/structure"
+  },
+  "next": {
+    "title": "waveform",
+    "permalink": "/my-website/docs/tutorial/waveform"
+  }
+}

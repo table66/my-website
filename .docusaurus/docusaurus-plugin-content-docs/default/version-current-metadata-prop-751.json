@@ -10,43 +10,85 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
+        "type": "link",
+        "label": "Material",
+        "href": "/my-website/docs/tutorial/material",
+        "docId": "tutorial/material"
+      },
+      {
+        "type": "link",
+        "label": "Waveform",
+        "href": "/my-website/docs/tutorial/waveform",
+        "docId": "tutorial/waveform"
+      },
+      {
+        "type": "link",
+        "label": "Structure",
+        "href": "/my-website/docs/tutorial/structure",
+        "docId": "tutorial/structure"
+      },
+      {
         "type": "category",
-        "label": "求解器",
+        "label": "Simulation",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "FDE",
-            "href": "/my-website/docs/tutorial/mode/fde",
-            "docId": "tutorial/mode/fde"
+            "href": "/my-website/docs/tutorial/simulation/fde",
+            "docId": "tutorial/simulation/fde"
           },
           {
             "type": "link",
             "label": "EME",
-            "href": "/my-website/docs/tutorial/mode/eme",
-            "docId": "tutorial/mode/eme"
+            "href": "/my-website/docs/tutorial/simulation/eme",
+            "docId": "tutorial/simulation/eme"
           },
           {
             "type": "link",
             "label": "FDTD",
-            "href": "/my-website/docs/tutorial/mode/fdtd",
-            "docId": "tutorial/mode/fdtd"
+            "href": "/my-website/docs/tutorial/simulation/fdtd",
+            "docId": "tutorial/simulation/fdtd"
           }
         ],
-        "href": "/my-website/docs/category/求解器"
+        "href": "/my-website/docs/category/simulation"
       },
       {
         "type": "link",
-        "label": "材料",
-        "href": "/my-website/docs/tutorial/material",
-        "docId": "tutorial/material"
+        "label": "Run",
+        "href": "/my-website/docs/tutorial/run",
+        "docId": "tutorial/run"
       },
       {
         "type": "link",
-        "label": "教程",
-        "href": "/my-website/docs/tutorial/t1",
-        "docId": "tutorial/t1"
+        "label": "Source",
+        "href": "/my-website/docs/tutorial/Source",
+        "docId": "tutorial/Source"
+      },
+      {
+        "type": "link",
+        "label": "Check Memory",
+        "href": "/my-website/docs/tutorial/checkmemory",
+        "docId": "tutorial/checkmemory"
+      },
+      {
+        "type": "link",
+        "label": "Monitor",
+        "href": "/my-website/docs/tutorial/monitor",
+        "docId": "tutorial/monitor"
+      },
+      {
+        "type": "link",
+        "label": "Port",
+        "href": "/my-website/docs/tutorial/port",
+        "docId": "tutorial/port"
+      },
+      {
+        "type": "link",
+        "label": "Remesh",
+        "href": "/my-website/docs/tutorial/remesh",
+        "docId": "tutorial/remesh"
       }
     ],
     "faqSidebar": [
@@ -229,33 +271,75 @@
       "title": "Translate your site",
       "description": "Let's translate docs/intro.md to French."
     },
-    "tutorial/material": {
-      "id": "tutorial/material",
-      "title": "材料",
+    "tutorial/checkmemory": {
+      "id": "tutorial/checkmemory",
+      "title": "Check Memory",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial/mode/eme": {
-      "id": "tutorial/mode/eme",
+    "tutorial/material": {
+      "id": "tutorial/material",
+      "title": "Material",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/monitor": {
+      "id": "tutorial/monitor",
+      "title": "Monitor",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/port": {
+      "id": "tutorial/port",
+      "title": "Port",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/remesh": {
+      "id": "tutorial/remesh",
+      "title": "Remesh",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/run": {
+      "id": "tutorial/run",
+      "title": "Run",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/simulation/eme": {
+      "id": "tutorial/simulation/eme",
       "title": "EME",
       "description": "definition",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial/mode/fde": {
-      "id": "tutorial/mode/fde",
+    "tutorial/simulation/fde": {
+      "id": "tutorial/simulation/fde",
       "title": "FDE",
       "description": "The Finite-Difference Eigenmode (FDE) solver calculates the spatial profile and frequency dependence of modes by solving Maxwell's equations on a cross-sectional mesh of the waveguide.  The solver calculates the mode field profiles, effective index, and loss.  Integrated frequency sweep makes it easy to calculate group delay, dispersion, etc.  The solver can also treat bent waveguides.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial/mode/fdtd": {
-      "id": "tutorial/mode/fdtd",
+    "tutorial/simulation/fdtd": {
+      "id": "tutorial/simulation/fdtd",
       "title": "FDTD",
       "description": "Definition",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial/t1": {
-      "id": "tutorial/t1",
-      "title": "教程",
+    "tutorial/Source": {
+      "id": "tutorial/Source",
+      "title": "Source",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/structure": {
+      "id": "tutorial/structure",
+      "title": "Structure",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial/waveform": {
+      "id": "tutorial/waveform",
+      "title": "Waveform",
       "description": "",
       "sidebar": "tutorialSidebar"
     }

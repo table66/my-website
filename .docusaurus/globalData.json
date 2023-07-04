@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/my-website/docs",
-          "mainDocId": "tutorial/mode/fde",
+          "mainDocId": "tutorial/material",
           "docs": [
             {
               "id": "examples/Grating/grating",
@@ -92,33 +92,68 @@
               "path": "/my-website/docs/tutorial-extras/translate-your-site"
             },
             {
+              "id": "tutorial/checkmemory",
+              "path": "/my-website/docs/tutorial/checkmemory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial/material",
               "path": "/my-website/docs/tutorial/material",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial/mode/eme",
-              "path": "/my-website/docs/tutorial/mode/eme",
+              "id": "tutorial/monitor",
+              "path": "/my-website/docs/tutorial/monitor",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial/mode/fde",
-              "path": "/my-website/docs/tutorial/mode/fde",
+              "id": "tutorial/port",
+              "path": "/my-website/docs/tutorial/port",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial/mode/fdtd",
-              "path": "/my-website/docs/tutorial/mode/fdtd",
+              "id": "tutorial/remesh",
+              "path": "/my-website/docs/tutorial/remesh",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial/t1",
-              "path": "/my-website/docs/tutorial/t1",
+              "id": "tutorial/run",
+              "path": "/my-website/docs/tutorial/run",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/求解器",
-              "path": "/my-website/docs/category/求解器",
+              "id": "tutorial/simulation/eme",
+              "path": "/my-website/docs/tutorial/simulation/eme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/simulation/fde",
+              "path": "/my-website/docs/tutorial/simulation/fde",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/simulation/fdtd",
+              "path": "/my-website/docs/tutorial/simulation/fdtd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/Source",
+              "path": "/my-website/docs/tutorial/Source",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/structure",
+              "path": "/my-website/docs/tutorial/structure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/waveform",
+              "path": "/my-website/docs/tutorial/waveform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/simulation",
+              "path": "/my-website/docs/category/simulation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -131,8 +166,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/my-website/docs/category/求解器",
-                "label": "求解器"
+                "path": "/my-website/docs/tutorial/material",
+                "label": "tutorial/material"
               }
             },
             "faqSidebar": {

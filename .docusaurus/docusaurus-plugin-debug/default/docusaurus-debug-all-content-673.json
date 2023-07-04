@@ -379,9 +379,33 @@
               }
             },
             {
+              "unversionedId": "tutorial/checkmemory",
+              "id": "tutorial/checkmemory",
+              "title": "Check Memory",
+              "description": "",
+              "source": "@site/docs/tutorial/checkmemory.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/checkmemory",
+              "permalink": "/my-website/docs/tutorial/checkmemory",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/checkmemory.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Source",
+                "permalink": "/my-website/docs/tutorial/Source"
+              },
+              "next": {
+                "title": "Monitor",
+                "permalink": "/my-website/docs/tutorial/monitor"
+              }
+            },
+            {
               "unversionedId": "tutorial/material",
               "id": "tutorial/material",
-              "title": "材料",
+              "title": "Material",
               "description": "",
               "source": "@site/docs/tutorial/material.md",
               "sourceDirName": "tutorial",
@@ -391,28 +415,122 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/material.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "FDTD",
-                "permalink": "/my-website/docs/tutorial/mode/fdtd"
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
               },
+              "sidebar": "tutorialSidebar",
               "next": {
-                "title": "教程",
-                "permalink": "/my-website/docs/tutorial/t1"
+                "title": "Waveform",
+                "permalink": "/my-website/docs/tutorial/waveform"
               }
             },
             {
-              "unversionedId": "tutorial/mode/eme",
-              "id": "tutorial/mode/eme",
+              "unversionedId": "tutorial/monitor",
+              "id": "tutorial/monitor",
+              "title": "Monitor",
+              "description": "",
+              "source": "@site/docs/tutorial/monitor.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/monitor",
+              "permalink": "/my-website/docs/tutorial/monitor",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/monitor.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Check Memory",
+                "permalink": "/my-website/docs/tutorial/checkmemory"
+              },
+              "next": {
+                "title": "Port",
+                "permalink": "/my-website/docs/tutorial/port"
+              }
+            },
+            {
+              "unversionedId": "tutorial/port",
+              "id": "tutorial/port",
+              "title": "Port",
+              "description": "",
+              "source": "@site/docs/tutorial/port.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/port",
+              "permalink": "/my-website/docs/tutorial/port",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/port.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monitor",
+                "permalink": "/my-website/docs/tutorial/monitor"
+              },
+              "next": {
+                "title": "Remesh",
+                "permalink": "/my-website/docs/tutorial/remesh"
+              }
+            },
+            {
+              "unversionedId": "tutorial/remesh",
+              "id": "tutorial/remesh",
+              "title": "Remesh",
+              "description": "",
+              "source": "@site/docs/tutorial/remesh.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/remesh",
+              "permalink": "/my-website/docs/tutorial/remesh",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/remesh.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Port",
+                "permalink": "/my-website/docs/tutorial/port"
+              }
+            },
+            {
+              "unversionedId": "tutorial/run",
+              "id": "tutorial/run",
+              "title": "Run",
+              "description": "",
+              "source": "@site/docs/tutorial/run.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/run",
+              "permalink": "/my-website/docs/tutorial/run",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/run.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "FDTD",
+                "permalink": "/my-website/docs/tutorial/simulation/fdtd"
+              },
+              "next": {
+                "title": "Source",
+                "permalink": "/my-website/docs/tutorial/Source"
+              }
+            },
+            {
+              "unversionedId": "tutorial/simulation/eme",
+              "id": "tutorial/simulation/eme",
               "title": "EME",
               "description": "definition",
-              "source": "@site/docs/tutorial/mode/eme.md",
-              "sourceDirName": "tutorial/mode",
-              "slug": "/tutorial/mode/eme",
-              "permalink": "/my-website/docs/tutorial/mode/eme",
+              "source": "@site/docs/tutorial/simulation/eme.md",
+              "sourceDirName": "tutorial/simulation",
+              "slug": "/tutorial/simulation/eme",
+              "permalink": "/my-website/docs/tutorial/simulation/eme",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/eme.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/simulation/eme.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -422,24 +540,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "FDE",
-                "permalink": "/my-website/docs/tutorial/mode/fde"
+                "permalink": "/my-website/docs/tutorial/simulation/fde"
               },
               "next": {
                 "title": "FDTD",
-                "permalink": "/my-website/docs/tutorial/mode/fdtd"
+                "permalink": "/my-website/docs/tutorial/simulation/fdtd"
               }
             },
             {
-              "unversionedId": "tutorial/mode/fde",
-              "id": "tutorial/mode/fde",
+              "unversionedId": "tutorial/simulation/fde",
+              "id": "tutorial/simulation/fde",
               "title": "FDE",
               "description": "The Finite-Difference Eigenmode (FDE) solver calculates the spatial profile and frequency dependence of modes by solving Maxwell's equations on a cross-sectional mesh of the waveguide.  The solver calculates the mode field profiles, effective index, and loss.  Integrated frequency sweep makes it easy to calculate group delay, dispersion, etc.  The solver can also treat bent waveguides.",
-              "source": "@site/docs/tutorial/mode/fde.md",
-              "sourceDirName": "tutorial/mode",
-              "slug": "/tutorial/mode/fde",
-              "permalink": "/my-website/docs/tutorial/mode/fde",
+              "source": "@site/docs/tutorial/simulation/fde.md",
+              "sourceDirName": "tutorial/simulation",
+              "slug": "/tutorial/simulation/fde",
+              "permalink": "/my-website/docs/tutorial/simulation/fde",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/fde.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/simulation/fde.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -448,25 +566,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "求解器",
-                "permalink": "/my-website/docs/category/求解器"
+                "title": "Simulation",
+                "permalink": "/my-website/docs/category/simulation"
               },
               "next": {
                 "title": "EME",
-                "permalink": "/my-website/docs/tutorial/mode/eme"
+                "permalink": "/my-website/docs/tutorial/simulation/eme"
               }
             },
             {
-              "unversionedId": "tutorial/mode/fdtd",
-              "id": "tutorial/mode/fdtd",
+              "unversionedId": "tutorial/simulation/fdtd",
+              "id": "tutorial/simulation/fdtd",
               "title": "FDTD",
               "description": "Definition",
-              "source": "@site/docs/tutorial/mode/fdtd.md",
-              "sourceDirName": "tutorial/mode",
-              "slug": "/tutorial/mode/fdtd",
-              "permalink": "/my-website/docs/tutorial/mode/fdtd",
+              "source": "@site/docs/tutorial/simulation/fdtd.md",
+              "sourceDirName": "tutorial/simulation",
+              "slug": "/tutorial/simulation/fdtd",
+              "permalink": "/my-website/docs/tutorial/simulation/fdtd",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/mode/fdtd.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/simulation/fdtd.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -476,31 +594,89 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "EME",
-                "permalink": "/my-website/docs/tutorial/mode/eme"
+                "permalink": "/my-website/docs/tutorial/simulation/eme"
               },
               "next": {
-                "title": "材料",
-                "permalink": "/my-website/docs/tutorial/material"
+                "title": "Run",
+                "permalink": "/my-website/docs/tutorial/run"
               }
             },
             {
-              "unversionedId": "tutorial/t1",
-              "id": "tutorial/t1",
-              "title": "教程",
+              "unversionedId": "tutorial/Source",
+              "id": "tutorial/Source",
+              "title": "Source",
               "description": "",
-              "source": "@site/docs/tutorial/t1.md",
+              "source": "@site/docs/tutorial/Source.md",
               "sourceDirName": "tutorial",
-              "slug": "/tutorial/t1",
-              "permalink": "/my-website/docs/tutorial/t1",
+              "slug": "/tutorial/Source",
+              "permalink": "/my-website/docs/tutorial/Source",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/t1.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/Source.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "材料",
+                "title": "Run",
+                "permalink": "/my-website/docs/tutorial/run"
+              },
+              "next": {
+                "title": "Check Memory",
+                "permalink": "/my-website/docs/tutorial/checkmemory"
+              }
+            },
+            {
+              "unversionedId": "tutorial/structure",
+              "id": "tutorial/structure",
+              "title": "Structure",
+              "description": "",
+              "source": "@site/docs/tutorial/structure.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/structure",
+              "permalink": "/my-website/docs/tutorial/structure",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/structure.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Waveform",
+                "permalink": "/my-website/docs/tutorial/waveform"
+              },
+              "next": {
+                "title": "Simulation",
+                "permalink": "/my-website/docs/category/simulation"
+              }
+            },
+            {
+              "unversionedId": "tutorial/waveform",
+              "id": "tutorial/waveform",
+              "title": "Waveform",
+              "description": "",
+              "source": "@site/docs/tutorial/waveform.md",
+              "sourceDirName": "tutorial",
+              "slug": "/tutorial/waveform",
+              "permalink": "/my-website/docs/tutorial/waveform",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/waveform.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Material",
                 "permalink": "/my-website/docs/tutorial/material"
+              },
+              "next": {
+                "title": "Structure",
+                "permalink": "/my-website/docs/tutorial/structure"
               }
             }
           ],
@@ -508,37 +684,65 @@
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "category",
-                "label": "求解器",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial/mode/fde"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/mode/eme"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial/mode/fdtd"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/求解器",
-                  "permalink": "/my-website/docs/category/求解器"
-                }
-              },
-              {
                 "type": "doc",
                 "id": "tutorial/material"
               },
               {
                 "type": "doc",
-                "id": "tutorial/t1"
+                "id": "tutorial/waveform"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/structure"
+              },
+              {
+                "type": "category",
+                "label": "Simulation",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial/simulation/fde"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/simulation/eme"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial/simulation/fdtd"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/simulation",
+                  "permalink": "/my-website/docs/category/simulation"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/run"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/Source"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/checkmemory"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/monitor"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/port"
+              },
+              {
+                "type": "doc",
+                "id": "tutorial/remesh"
               }
             ],
             "faqSidebar": [

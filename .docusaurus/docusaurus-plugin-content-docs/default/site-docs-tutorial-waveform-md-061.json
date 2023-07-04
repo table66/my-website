@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial/waveform",
+  "id": "tutorial/waveform",
+  "title": "Waveform",
+  "description": "",
+  "source": "@site/docs/tutorial/waveform.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/waveform",
+  "permalink": "/my-website/docs/tutorial/waveform",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/waveform.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Material",
+    "permalink": "/my-website/docs/tutorial/material"
+  },
+  "next": {
+    "title": "Structure",
+    "permalink": "/my-website/docs/tutorial/structure"
+  }
+}
