@@ -15,16 +15,22 @@ const FeatureList = [
     
     description: (
       <>
+         <hr />
         <div style={{ textAlign: 'center' }}>
-          <a href="/my-website/docs/faq/">1.What is Max-Optics?</a>
+          <a href="/my-website/docs/faq/">    1.What is Max-Optics? </a>
         </div>
 
+        <hr />
+
         <div style={{ textAlign: 'center' }}>
-          <a href="/my-website/docs/faq/faq1">2.How to install Max-Optics?</a>
+          <a href="/my-website/docs/faq/faq1">    2.How to install Max-Optics?</a>
         </div>
+
+        <hr />
         <div style={{ textAlign: 'center' }}>
           <a href="/my-website/docs/faq/faq1">test</a>
         </div>
+        <hr />
        
       </>
     ),
@@ -36,23 +42,35 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
+              <hr />
+
         <div style={{ textAlign: 'center' }}>
           <a href="/my-website/docs/tutorial/mode/fde">1.what is FDE?</a>
         </div>
+        <hr />
+
   
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/fdtd">2.what is FDTD?</a>
         </div>
+        <hr />
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/eme">3.what is EME?</a>
         </div>
+        <hr />
+
 
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/material">4.how to set material?</a>
         </div>
+        <hr />
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/t1">5.how to simulation?</a>
         </div>
+        <hr />
+
        
         
       </>
@@ -133,6 +151,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
+      {/* <u>This text is underlined.</u> 添加下划线 */}
         Extend or customize your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer.
       </>
@@ -142,7 +161,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col-- ')}>
+    <div className={clsx('col col--4 ')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
