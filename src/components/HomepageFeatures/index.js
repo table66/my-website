@@ -2,6 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+
+var base = 'my-website'
+
 const FeatureList = [
   {
     title: 'FAQ',
@@ -11,11 +14,11 @@ const FeatureList = [
     description: (
       <>
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>{"\n"}
+          <a href="/my-website/docs/faq/">1.What is Max-Optics？</a>
         </div>
-        {/* <a href="http://localhost:3000/my-website/docs/faq/">1.What is Max-Optics？</a>{"\n"} */}
+
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/my-website/docs/faq/faq1">2.How to install Max-Optics？</a>
+          <a href="/my-website/docs/faq/faq1">2.How to install Max-Optics？</a>
         </div>
        
       </>
@@ -29,21 +32,21 @@ const FeatureList = [
     description: (
       <>
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.what is FDE?</a>
+          <a href="/my-website/docs/tutorial/mode/fde">1.what is FDE?</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.what is FDTD?</a>
+        <a href="/my-website/docs/tutorial/mode/fdtd">2.what is FDTD?</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.what is EME?</a>
+        <a href="/my-website/docs/tutorial/mode/eme">3.what is EME?</a>
         </div>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">4.how to set material?</a>
+        <a href="/my-website/docs/tutorial/material">4.how to set material?</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">5.how to simulation?</a>
+        <a href="/my-website/docs/tutorial/t1">5.how to simulation?</a>
         </div>
        
         
@@ -58,18 +61,18 @@ const FeatureList = [
       <>
         
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.如何调出所用命令？（待）</a>
+          <a href="/my-website/docs/tutorial/mode/fde">1.如何调出所用命令？（待）</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.做一个例子，从mo.sdk.doc到knowledge base的item?（待）</a>
+        <a href="/my-website/docs/tutorial/mode/fdtd">2.做一个例子，从mo.sdk.doc到knowledge base的item?（待）</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.用GUI创建?（待）</a>
+        <a href="/my-website/docs/tutorial/mode/eme">3.用GUI创建?（待）</a>
         </div>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">4.用SDK创建？（待）</a>
+        <a href="/my-website/docs/tutorial/material">4.用SDK创建？（待）</a>
         </div>
         
        
@@ -85,35 +88,35 @@ const FeatureList = [
     description: (
       <>
         <div style={{ textAlign: 'left' }}>
-          <a href="http://localhost:3000/docs\tutorial\mode\fde">1.PIC</a>
+          <a href="/my-website/docs/tutorial/mode/fde">1.PIC</a>
         </div>
   
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\fdtd">2.Grating</a>
+        <a href="/my-website/docs/tutorial/mode/fdtd">2.Grating</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">3.Metamaterial</a>
-        </div>
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">4.PD(by GUI)</a>
-        </div>
-        <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">5.PD(by SDK)</a>
-        </div>
-        <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\mode\eme">6.MOD(by GUI)</a>
+        <a href="/my-website/docs/tutorial/mode/eme">3.Metamaterial</a>
         </div>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\material">7.MOD(by SDK)</a>
+        <a href="/my-website/docs/tutorial/material">4.PD(by GUI)</a>
         </div>
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">8.Lasers</a>
+        <a href="/my-website/docs/tutorial/t1">5.PD(by SDK)</a>
+        </div>
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/mode/eme">6.MOD(by GUI)</a>
+        </div>
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/material">7.MOD(by SDK)</a>
+        </div>
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/t1">8.Lasers</a>
         </div>
         
         <div style={{ textAlign: 'left' }}>
-        <a href="http://localhost:3000/docs\tutorial\t1">9.Optical scattering and far-field radiation</a>
+        <a href="/my-website/docs/tutorial/t1">9.Optical scattering and far-field radiation</a>
         </div>
        
       </>
