@@ -1,9 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/faq/",
-  "source": "@site/src/pages/faq/index.md",
-  "title": "hello",
-  "frontMatter": {
-    "sidebar_position": 1
-  }
-}
