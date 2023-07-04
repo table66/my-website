@@ -96,6 +96,22 @@
         "href": "/my-website/docs/examples/ybranch/",
         "docId": "examples/ybranch/ybranch"
       }
+    ],
+    "howdoiSidebar": [
+      {
+        "type": "link",
+        "label": "this is How do I",
+        "href": "/my-website/docs/howdoi/howdoiintro",
+        "docId": "howdoi/howdoiintro"
+      }
+    ],
+    "moreSidebar": [
+      {
+        "type": "link",
+        "label": "more",
+        "href": "/my-website/docs/more/moreIntro",
+        "docId": "more/moreIntro"
+      }
     ]
   },
   "docs": {
@@ -135,10 +151,22 @@
       "description": "",
       "sidebar": "faqSidebar"
     },
+    "howdoi/howdoiintro": {
+      "id": "howdoi/howdoiintro",
+      "title": "this is How do I",
+      "description": "",
+      "sidebar": "howdoiSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes."
+    },
+    "more/moreIntro": {
+      "id": "more/moreIntro",
+      "title": "more",
+      "description": "",
+      "sidebar": "moreSidebar"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",

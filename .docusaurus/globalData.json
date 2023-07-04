@@ -41,8 +41,18 @@
               "sidebar": "faqSidebar"
             },
             {
+              "id": "howdoi/howdoiintro",
+              "path": "/my-website/docs/howdoi/howdoiintro",
+              "sidebar": "howdoiSidebar"
+            },
+            {
               "id": "intro",
               "path": "/my-website/docs/intro"
+            },
+            {
+              "id": "more/moreIntro",
+              "path": "/my-website/docs/more/moreIntro",
+              "sidebar": "moreSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -125,6 +135,18 @@
               "link": {
                 "path": "/my-website/docs/examples/ring resonator/ring resomator",
                 "label": "examples/ring resonator/ring resomator"
+              }
+            },
+            "howdoiSidebar": {
+              "link": {
+                "path": "/my-website/docs/howdoi/howdoiintro",
+                "label": "howdoi/howdoiintro"
+              }
+            },
+            "moreSidebar": {
+              "link": {
+                "path": "/my-website/docs/more/moreIntro",
+                "label": "more/moreIntro"
               }
             }
           }

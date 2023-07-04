@@ -104,7 +104,7 @@ export default [
   },
   {
     path: '/my-website/docs',
-    component: ComponentCreator('/my-website/docs', '1f4'),
+    component: ComponentCreator('/my-website/docs', 'e50'),
     routes: [
       {
         path: '/my-website/docs/category/求解器',
@@ -149,9 +149,21 @@ export default [
         sidebar: "faqSidebar"
       },
       {
+        path: '/my-website/docs/howdoi/howdoiintro',
+        component: ComponentCreator('/my-website/docs/howdoi/howdoiintro', '5c1'),
+        exact: true,
+        sidebar: "howdoiSidebar"
+      },
+      {
         path: '/my-website/docs/intro',
         component: ComponentCreator('/my-website/docs/intro', '563'),
         exact: true
+      },
+      {
+        path: '/my-website/docs/more/moreIntro',
+        component: ComponentCreator('/my-website/docs/more/moreIntro', '15b'),
+        exact: true,
+        sidebar: "moreSidebar"
       },
       {
         path: '/my-website/docs/tutorial-basics/congratulations',
