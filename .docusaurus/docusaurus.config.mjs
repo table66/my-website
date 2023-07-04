@@ -64,7 +64,13 @@ export default {
           "type": "docSidebar",
           "sidebarId": "faqSidebar",
           "position": "left",
-          "label": "FAQ"
+          "label": "FAQ",
+          "items": [
+            {
+              "label": "faq1",
+              "to": "faq"
+            }
+          ]
         },
         {
           "type": "docSidebar",

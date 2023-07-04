@@ -117,6 +117,14 @@ const config = {
             sidebarId: 'faqSidebar',
             position: 'left',
             label: 'FAQ',
+            items: [{ label: 'faq1', to:'faq'} ,],
+
+
+
+
+
+
+            
           },
           {
             type: 'docSidebar',
@@ -142,6 +150,13 @@ const config = {
             position: 'left',
             label: 'More',
           },
+
+          // {
+          //   to:'/docs/faq',
+          //   label:'test',
+          //   position:'right',
+          //   items:[ {  label:'hello', to:'/docs/ '} ,] ,
+          // },
           
 
 

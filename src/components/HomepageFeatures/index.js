@@ -82,21 +82,27 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        
+         <hr />
         <div style={{ textAlign: 'center' }}>
           <a href="/my-website/docs/tutorial/mode/fde">1.如何调出所用命令？（待）</a>
         </div>
+        <hr />
   
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/fdtd">2.做一个例子,从mo.sdk.doc到knowledge base的item?（待）</a>
         </div>
+        <hr />
+
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/eme">3.用GUI创建?（待）</a>
         </div>
+        <hr />
 
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/material">4.用SDK创建?（待）</a>
         </div>
+        <hr />
         
        
         
@@ -110,37 +116,54 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
+       <hr />
         <div style={{ textAlign: 'center' }}>
           <a href="/my-website/docs/category/pic">1.PIC</a>
         </div>
+        <hr />
   
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/fdtd">2.Grating</a>
         </div>
+        <hr />
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/eme">3.Metamaterial</a>
         </div>
+        <hr />
 
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/material">4.PD(by GUI)</a>
         </div>
+        <hr />
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/t1">5.PD(by SDK)</a>
         </div>
+        <hr />
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/mode/eme">6.MOD(by GUI)</a>
         </div>
+        <hr />
+
 
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/material">7.MOD(by SDK)</a>
         </div>
+        <hr />
+
+
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/t1">8.Lasers</a>
         </div>
+        <hr />
+
         
         <div style={{ textAlign: 'center' }}>
         <a href="/my-website/docs/tutorial/t1">9.Optical scattering and far-field radiation</a>
         </div>
+        <hr />
        
       </>
     ),
