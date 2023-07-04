@@ -1,0 +1,20 @@
+{
+  "unversionedId": "tutorial/t1",
+  "id": "tutorial/t1",
+  "title": "教程",
+  "description": "",
+  "source": "@site/docs/tutorial/t1.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/t1",
+  "permalink": "/my-website/docs/tutorial/t1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial/t1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "材料",
+    "permalink": "/my-website/docs/tutorial/material"
+  }
+}
