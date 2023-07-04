@@ -11,18 +11,13 @@
           "mainDocId": "tutorial/mode/fde",
           "docs": [
             {
-              "id": "examples/Grating/grating",
-              "path": "/my-website/docs/examples/Grating/",
+              "id": "examples/ring resonator/ring resomator",
+              "path": "/my-website/docs/examples/ring resonator/ring resomator",
               "sidebar": "examplesSidebar"
             },
             {
-              "id": "examples/PIC/ring resonator/ring resomator",
-              "path": "/my-website/docs/examples/PIC/ring resonator/ring resomator",
-              "sidebar": "examplesSidebar"
-            },
-            {
-              "id": "examples/PIC/ybranch/ybranch",
-              "path": "/my-website/docs/examples/PIC/ybranch/",
+              "id": "examples/ybranch/ybranch",
+              "path": "/my-website/docs/examples/ybranch/",
               "sidebar": "examplesSidebar"
             },
             {
@@ -46,18 +41,8 @@
               "sidebar": "faqSidebar"
             },
             {
-              "id": "howdoi/howdoiintro",
-              "path": "/my-website/docs/howdoi/howdoiintro",
-              "sidebar": "howdoiSidebar"
-            },
-            {
               "id": "intro",
               "path": "/my-website/docs/intro"
-            },
-            {
-              "id": "more/moreIntro",
-              "path": "/my-website/docs/more/moreIntro",
-              "sidebar": "moreSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -120,11 +105,6 @@
               "id": "/category/求解器",
               "path": "/my-website/docs/category/求解器",
               "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/pic",
-              "path": "/my-website/docs/category/pic",
-              "sidebar": "examplesSidebar"
             }
           ],
           "draftIds": [],
@@ -143,20 +123,8 @@
             },
             "examplesSidebar": {
               "link": {
-                "path": "/my-website/docs/category/pic",
-                "label": "PIC"
-              }
-            },
-            "howdoiSidebar": {
-              "link": {
-                "path": "/my-website/docs/howdoi/howdoiintro",
-                "label": "howdoi/howdoiintro"
-              }
-            },
-            "moreSidebar": {
-              "link": {
-                "path": "/my-website/docs/more/moreIntro",
-                "label": "more/moreIntro"
+                "path": "/my-website/docs/examples/ring resonator/ring resomator",
+                "label": "examples/ring resonator/ring resomator"
               }
             }
           }

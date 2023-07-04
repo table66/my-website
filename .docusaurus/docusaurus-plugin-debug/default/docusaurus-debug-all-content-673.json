@@ -20,71 +20,43 @@
           "contentPathLocalized": "E:\\研究生\\曼光\\website\\right\\my-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "examples/Grating/grating",
-              "id": "examples/Grating/grating",
-              "title": "grating",
-              "description": "",
-              "source": "@site/docs/examples/Grating/grating.md",
-              "sourceDirName": "examples/Grating",
-              "slug": "/examples/Grating/",
-              "permalink": "/my-website/docs/examples/Grating/",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/Grating/grating.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "examplesSidebar",
-              "previous": {
-                "title": "Y branch",
-                "permalink": "/my-website/docs/examples/PIC/ybranch/"
-              }
-            },
-            {
-              "unversionedId": "examples/PIC/ring resonator/ring resomator",
-              "id": "examples/PIC/ring resonator/ring resomator",
+              "unversionedId": "examples/ring resonator/ring resomator",
+              "id": "examples/ring resonator/ring resomator",
               "title": "ring resomator",
               "description": "",
-              "source": "@site/docs/examples/PIC/ring resonator/ring resomator.md",
-              "sourceDirName": "examples/PIC/ring resonator",
-              "slug": "/examples/PIC/ring resonator/ring resomator",
-              "permalink": "/my-website/docs/examples/PIC/ring resonator/ring resomator",
+              "source": "@site/docs/examples/ring resonator/ring resomator.md",
+              "sourceDirName": "examples/ring resonator",
+              "slug": "/examples/ring resonator/ring resomator",
+              "permalink": "/my-website/docs/examples/ring resonator/ring resomator",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/PIC/ring resonator/ring resomator.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/ring resonator/ring resomator.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "examplesSidebar",
-              "previous": {
-                "title": "PIC",
-                "permalink": "/my-website/docs/category/pic"
-              },
               "next": {
                 "title": "Y branch",
-                "permalink": "/my-website/docs/examples/PIC/ybranch/"
+                "permalink": "/my-website/docs/examples/ybranch/"
               }
             },
             {
-              "unversionedId": "examples/PIC/ybranch/ybranch",
-              "id": "examples/PIC/ybranch/ybranch",
+              "unversionedId": "examples/ybranch/ybranch",
+              "id": "examples/ybranch/ybranch",
               "title": "Y branch",
               "description": "The insertion loss, transmission and S-parameters of a Y-branch are calculated using FDTD Solver.",
-              "source": "@site/docs/examples/PIC/ybranch/ybranch.md",
-              "sourceDirName": "examples/PIC/ybranch",
-              "slug": "/examples/PIC/ybranch/",
-              "permalink": "/my-website/docs/examples/PIC/ybranch/",
+              "source": "@site/docs/examples/ybranch/ybranch.md",
+              "sourceDirName": "examples/ybranch",
+              "slug": "/examples/ybranch/",
+              "permalink": "/my-website/docs/examples/ybranch/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/PIC/ybranch/ybranch.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/examples/ybranch/ybranch.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "examplesSidebar",
               "previous": {
                 "title": "ring resomator",
-                "permalink": "/my-website/docs/examples/PIC/ring resonator/ring resomator"
-              },
-              "next": {
-                "title": "grating",
-                "permalink": "/my-website/docs/examples/Grating/"
+                "permalink": "/my-website/docs/examples/ring resonator/ring resomator"
               }
             },
             {
@@ -185,22 +157,6 @@
               }
             },
             {
-              "unversionedId": "howdoi/howdoiintro",
-              "id": "howdoi/howdoiintro",
-              "title": "this is How do I",
-              "description": "",
-              "source": "@site/docs/howdoi/howdoiintro.md",
-              "sourceDirName": "howdoi",
-              "slug": "/howdoi/howdoiintro",
-              "permalink": "/my-website/docs/howdoi/howdoiintro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/howdoi/howdoiintro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "howdoiSidebar"
-            },
-            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Tutorial Intro",
@@ -217,22 +173,6 @@
               "frontMatter": {
                 "sidebar_position": 1
               }
-            },
-            {
-              "unversionedId": "more/moreIntro",
-              "id": "more/moreIntro",
-              "title": "more",
-              "description": "",
-              "source": "@site/docs/more/moreIntro.md",
-              "sourceDirName": "more",
-              "slug": "/more/moreIntro",
-              "permalink": "/my-website/docs/more/moreIntro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/more/moreIntro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "moreSidebar"
             },
             {
               "unversionedId": "tutorial-basics/congratulations",
@@ -562,51 +502,20 @@
             "examplesSidebar": [
               {
                 "type": "category",
-                "label": "PIC",
+                "label": "ring resonator",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "ring resonator",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "examples/PIC/ring resonator/ring resomator"
-                      }
-                    ]
-                  },
-                  {
                     "type": "doc",
-                    "label": "Y branch",
-                    "id": "examples/PIC/ybranch/ybranch"
+                    "id": "examples/ring resonator/ring resomator"
                   }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "This is PIC examples library.",
-                  "slug": "/category/pic",
-                  "permalink": "/my-website/docs/category/pic"
-                }
+                ]
               },
               {
                 "type": "doc",
-                "label": "grating",
-                "id": "examples/Grating/grating"
-              }
-            ],
-            "howdoiSidebar": [
-              {
-                "type": "doc",
-                "id": "howdoi/howdoiintro"
-              }
-            ],
-            "moreSidebar": [
-              {
-                "type": "doc",
-                "id": "more/moreIntro"
+                "label": "Y branch",
+                "id": "examples/ybranch/ybranch"
               }
             ]
           }

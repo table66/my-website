@@ -104,7 +104,7 @@ export default [
   },
   {
     path: '/my-website/docs',
-    component: ComponentCreator('/my-website/docs', '0aa'),
+    component: ComponentCreator('/my-website/docs', '1f4'),
     routes: [
       {
         path: '/my-website/docs/category/求解器',
@@ -113,26 +113,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/my-website/docs/category/pic',
-        component: ComponentCreator('/my-website/docs/category/pic', '6a1'),
+        path: '/my-website/docs/examples/ring resonator/ring resomator',
+        component: ComponentCreator('/my-website/docs/examples/ring resonator/ring resomator', '70b'),
         exact: true,
         sidebar: "examplesSidebar"
       },
       {
-        path: '/my-website/docs/examples/Grating/',
-        component: ComponentCreator('/my-website/docs/examples/Grating/', '513'),
-        exact: true,
-        sidebar: "examplesSidebar"
-      },
-      {
-        path: '/my-website/docs/examples/PIC/ring resonator/ring resomator',
-        component: ComponentCreator('/my-website/docs/examples/PIC/ring resonator/ring resomator', 'd5d'),
-        exact: true,
-        sidebar: "examplesSidebar"
-      },
-      {
-        path: '/my-website/docs/examples/PIC/ybranch/',
-        component: ComponentCreator('/my-website/docs/examples/PIC/ybranch/', '57e'),
+        path: '/my-website/docs/examples/ybranch/',
+        component: ComponentCreator('/my-website/docs/examples/ybranch/', '9b5'),
         exact: true,
         sidebar: "examplesSidebar"
       },
@@ -161,21 +149,9 @@ export default [
         sidebar: "faqSidebar"
       },
       {
-        path: '/my-website/docs/howdoi/howdoiintro',
-        component: ComponentCreator('/my-website/docs/howdoi/howdoiintro', '5c1'),
-        exact: true,
-        sidebar: "howdoiSidebar"
-      },
-      {
         path: '/my-website/docs/intro',
         component: ComponentCreator('/my-website/docs/intro', '563'),
         exact: true
-      },
-      {
-        path: '/my-website/docs/more/moreIntro',
-        component: ComponentCreator('/my-website/docs/more/moreIntro', '15b'),
-        exact: true,
-        sidebar: "moreSidebar"
       },
       {
         path: '/my-website/docs/tutorial-basics/congratulations',

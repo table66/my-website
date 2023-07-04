@@ -64,31 +64,19 @@ export default {
           "type": "docSidebar",
           "sidebarId": "faqSidebar",
           "position": "left",
-          "label": "FAQ"
+          "label": "faq"
         },
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorials"
-        },
-        {
-          "type": "docSidebar",
-          "sidebarId": "howdoiSidebar",
-          "position": "left",
-          "label": "How do I"
+          "label": "tutorial"
         },
         {
           "type": "docSidebar",
           "sidebarId": "examplesSidebar",
           "position": "left",
-          "label": "Example Library"
-        },
-        {
-          "type": "docSidebar",
-          "sidebarId": "moreSidebar",
-          "position": "left",
-          "label": "More"
+          "label": "examples"
         },
         {
           "href": "https://max-optics.com/?lang=zh-cn",
