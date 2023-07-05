@@ -1,4 +1,4 @@
-# How to Obtaining Technical Support？
+# How to Obtaining Technical Support
 
 When you need technical support or have inquiries related to using Max-Optics, you can follow these steps to obtain support and write a request for assistance:
 
@@ -17,6 +17,19 @@ If you have already attempted some solutions without success, mention them in yo
 ## Be Polite and Clear: 
 Maintain a polite and clear tone when writing your support request. Use professional language and appropriate etiquette to express your issue or requirement and express gratitude for the support team's assistance.
 
+# User Feedback
+
+Please enter your question and feedback below:
+
+<textarea rows="20" cols="100" placeholder="Enter your question and feedback here"></textarea>
+
+---
+
+Thank you for your feedback! We will address your question as soon as possible. If you need further assistance, please contact our customer support team.
+
+Contact Information:
+- Phone: +1234567890
+- Email: support@example.com
 
 
 
